@@ -6,6 +6,14 @@ Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
 Go is an expressive, concurrent, garbage-collected programming language.
 
 
+Filelist
+========
+golang_quickstart.txt
+  golang quickstart 
+  by Whithame Reeve Whitham Reeve <wreeve@gci.com>
+  Wrote when writing a poller at GCI.
+
+
 Links
 =====
 The Go Programming Language
