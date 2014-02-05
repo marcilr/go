@@ -1,0 +1,13 @@
+go.txt
+Created Wed Feb  5 14:29:09 AKST 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Go is an expressive, concurrent, garbage-collected programming language.
+
+
+Links
+=====
+The Go Programming Language
+https://code.google.com/p/go/
+
