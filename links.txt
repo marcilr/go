@@ -1,0 +1,17 @@
+links.txt
+Created Wed Feb  5 14:31:54 AKST 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Go related links
+
+
+Links
+=====
+go
+The Go Programming Language
+https://code.google.com/p/go/
+
+go home page
+http://golang.org/
+
