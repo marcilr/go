@@ -8,6 +8,10 @@ Go is an expressive, concurrent, garbage-collected programming language.
 
 Filelist
 ========
+go.uew
+  UltraEdit go syntax file.
+  https://github.com/downloads/weigj/go-misc/go.uew
+
 golang_quickstart.txt
   golang quickstart 
   by Whithame Reeve Whitham Reeve <wreeve@gci.com>
