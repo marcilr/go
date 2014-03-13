@@ -1,0 +1,101 @@
+/L1"GO" GO_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = go
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
+/Delimiters = ~!%^&*()-+=|\/{}[]:;"'<> ,	.
+
+#/Function String = "%func[ ^t]+^([a-zA-Z_0-9]+^)[ ^t]++"
+/Function String 1 = "%func[ ^t]+^([~{]+^)[ ^t]++"
+
+/Member String = "^([A-Za-z0-9_:.]+^)[ ^t^*&]+$S[ ^t^[^]A-Za-z0-9_]++[(-);,]"
+/Variable String = "%[ ^t]++^([!-ÿ~ ^t<>]+*[~a-z^p]^)$S[ ^t;,()^-]"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{" "("
+/Close Fold Strings = "}" ")"
+/C1"Keywords" STYLE_KEYWORD Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+break
+default
+func
+interface
+select
+case
+defer
+go
+map
+struct
+chan
+else
+goto
+package
+switch
+const
+fallthrough
+if
+range
+type
+continue
+for
+import
+return
+var
+/C4"Operators" STYLE_OPERATOR Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
++
+&
++=
+&=
+&&
+==
+!=
+(
+)
+-
+|
+-=
+|=
+||
+<
+<=
+[
+]
+*
+^
+*=
+^=
+<-
+>
+>=
+{
+}
+/
+<<
+/=
+<<=
+++
+=
+:=
+,
+;
+%
+>>
+%=
+>>=
+--
+!
+...
+.
+:
+&^
+&^=
+/C5"Braces, comma, semicolon" Colors = 4210816 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+(
+)
+,
+;
+[
+]
+{
+}
