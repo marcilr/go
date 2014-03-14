@@ -1,0 +1,8 @@
+README
+Created Fri Mar 14 10:41:42 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Poller checkout
+===============
+git clone hnmadm@nms-snmppoller-2:/opt/testSnmp/gocode/src/poller
