@@ -10,7 +10,7 @@ Filelist
 ========
 poller/
   Checkout of GCI Whit Reeve's go poller code.
-  src$ git clone hnmadm@nms-snmppoller-2:/opt/t              estSnmp/gocode/src/poller
+  src$ git clone hnmadm@nms-snmppoller-2:/opt/testSnmp/gocode/src/poller
   Cloning into 'poller'...
 
   By continuing to use the system, you represent that you are an authorized user.
