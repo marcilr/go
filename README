@@ -3,6 +3,22 @@ Created Fri Mar 14 10:41:42 AKDT 2014
 Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
 
 
-Poller checkout
-===============
-git clone hnmadm@nms-snmppoller-2:/opt/testSnmp/gocode/src/poller
+Source code
+
+
+Filelist
+========
+poller/
+  Checkout of GCI Whit Reeve's go poller code.
+  src$ git clone hnmadm@nms-snmppoller-2:/opt/t              estSnmp/gocode/src/poller
+  Cloning into 'poller'...
+
+  By continuing to use the system, you represent that you are an authorized user.
+
+  hnmadm@nms-snmppoller-2's password:
+  remote: Counting objects: 53, done.
+  remote: Compressing objects: 100% (53/53), done.
+  remote: Total 53 (delta 28), reused 0 (delta 0)
+  Receiving objects: 100% (53/53), 13.71 KiB, done.
+  Resolving deltas: 100% (28/28), done.
+  src$
