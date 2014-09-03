@@ -10,4 +10,5 @@
 #
 # src/   Source code
 #
-./src    svn+ssh://home/data/svnroot/compsci/lang/go/src/src
+../../go/src/src   ./src
+
