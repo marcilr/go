@@ -1,0 +1,18 @@
+links.txt
+Created Fri Jul 29 08:41:39 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Go source related links
+
+
+Links
+=====
+gopoller
+Fast multithreaded snmp poller written in Go.
+Updated on Mar 2, 2015
+https://github.com/wdreeveii?tab=repositories
+
+Whitham D. Reeve II, wdreeveii
+GitHub page
+https://github.com/wdreeveii?tab=repositories
