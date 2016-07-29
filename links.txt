@@ -8,5 +8,12 @@ Go installation related links
 
 Links
 =====
+Downloads
+The Go Programming Language
+https://golang.org/dl/
+
 Installing Go from source
 https://golang.org/doc/install/source
+
+Installation instructions
+https://golang.org/doc/install
