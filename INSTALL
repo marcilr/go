@@ -17,8 +17,10 @@ cdde5e08530c0579255d6153b08fdb3b8e47caabbe717bc7bcd7561275a87aeb  go1.6.3.linux-
 
 Looks good
 
+2. Install go directory under /usr/local:
+$ tar -C /usr/local -xvf go1.6.3.linux-amd64.tar.gz
 
-
+--golang.org/doc/install
 
 
 Links
@@ -26,3 +28,6 @@ Links
 Downloads
 The Go Programming Language
 https://golang.org/dl/
+
+Getting Started
+https://golang.org/doc/install
