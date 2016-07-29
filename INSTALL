@@ -24,7 +24,7 @@ $ tar -C /usr/local -xvf go1.6.3.linux-amd64.tar.gz
 
 3. Add GOROOT and PATH to ~/.bashrc:
 GOROOT=/usr/local/go
-PATH=${PATH}:${GOROOT}
+PATH=${PATH}:${GOROOT}/bin
 export PATH
 
 
