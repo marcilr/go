@@ -1,0 +1,14 @@
+links.txt
+Created Fri Jul 29 10:37:12 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+MySQL for go related links
+
+
+Links
+=====
+go-sql-driver/mysql
+Go MySQL Driver is a lightweight and fast MySQL driver for Go's (golang)
+database/sql package http://godoc.org/github.com/go-sql-driver/mysql
+https://github.com/go-sql-driver/mysql
+
