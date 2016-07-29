@@ -5,4 +5,9 @@ Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+links.txt
+  MySQL for go related links
+
+mysql.txt
+      MySQL access from go
 
