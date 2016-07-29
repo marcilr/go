@@ -12,6 +12,10 @@ Downloads
 The Go Programming Language
 https://golang.org/dl/
 
+Getting Started
+tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
+https://golang.org/doc/install
+
 Installing Go from source
 https://golang.org/doc/install/source
 
