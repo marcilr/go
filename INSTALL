@@ -4,3 +4,25 @@ Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 
 
 Installation of go on debian debian 8.5 amd64
+
+
+1. Download go tarball for Linux:
+$ wget https://storage.googleapis.com/golang/go1.6.3.linux-amd64.tar.gz (81MB)
+
+SHA256: cdde5e08530c0579255d6153b08fdb3b8e47caabbe717bc7bcd7561275a87aeb
+--golang.org/dl/
+
+$ sha256sum go1.6.3.linux-amd64.tar.gz 
+cdde5e08530c0579255d6153b08fdb3b8e47caabbe717bc7bcd7561275a87aeb  go1.6.3.linux-amd64.tar.gz
+
+Looks good
+
+
+
+
+
+Links
+=====
+Downloads
+The Go Programming Language
+https://golang.org/dl/
