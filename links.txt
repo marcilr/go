@@ -1,0 +1,12 @@
+links.txt
+Created Fri Jul 29 09:08:06 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Go installation related links
+
+
+Links
+=====
+Installing Go from source
+https://golang.org/doc/install/source
