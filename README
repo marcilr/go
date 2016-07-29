@@ -8,5 +8,16 @@ Source code
 
 Filelist
 ========
+hello.go
+To execute:
+  $ go run hello.go
+  hello, world
+To install to ~/bin:
+  $ go install github.com/user/hello
+Getting Started
+The Go Programming Language
+https://gobyexample.com/hello-world
+https://golang.org/doc/install
+
 poller/
   Checkout of GCI Whit Reeve's go poller code.
