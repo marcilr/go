@@ -23,3 +23,6 @@ https://github.com/go-sql-driver/mysql
 Official Go support
 Cosmin Nicolaescu on September 23, 2014
 https://stripe.com/blog/official-go-support
+
+The Go Programming Language Specification
+https://golang.org/ref/spec
