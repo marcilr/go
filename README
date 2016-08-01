@@ -8,22 +8,13 @@ Source code
 
 Filelist
 ========
-<<<<<<< HEAD
-gopoller/
-  Fast multithreaded snmp poller written in Go.
-  Checkout from github
-  $ git clone https://github.com/wdreeveii/gopoller.git gopoller
-  https://github.com/wdreeveii/gopoller
-  https://github.com/wdreeveii/gopoller.git
-
-=======
 00ARCHIVES/
   Archives
 
 gopoller/
-  wdreeveii/gopoller
   Fast multithreaded snmp poller written in Go.
-  Whit Reeve's gopoller
+  Checkout from github
+  $ git clone https://github.com/wdreeveii/gopoller.git gopoller
   https://github.com/wdreeveii/gopoller
   https://github.com/wdreeveii/gopoller.git
 
@@ -41,6 +32,5 @@ hello.go
 links.txt
   Go source related links
 
->>>>>>> ddc9e0ef41e8d7dfebad8d5523424bb50a4e83cf
 poller/
   Checkout of GCI Whit Reeve's go poller code.
