@@ -1,0 +1,187 @@
+whats-the-recommended-way-to-connect-to-mysql-from-go.txt
+Created Mon Aug  1 13:47:35 AKDT 2016
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+What's the recommended way to connect to MySQL from Go?
+
+
+I am looking for a reliable solution to connect to a MySQL database from Go.
+I've seen some libraries around but it is difficult to determine the different
+states of completeness and current maintenance.  I don't have complicated
+needs, but I'd like to know what people are relying on, or what's the most
+standard solution to connect to MySQL.
+
+edited Jan 14 at 20:29
+raulk http://stackoverflow.com/users/1970990/raulk
+
+asked Jul 5 '12 at 23:00
+GiantSquid http://stackoverflow.com/users/78640/giantsquid
+
+Answers
+=======
+A few drivers are available but you should only consider those that implement
+the database/sql API as
+
+o it provides a clean and efficient syntax,
+o it ensures you can later change the driver without changing your code, apart
+the import and connection.
+
+Two fast and reliable drivers are available for MySQL :
+
+o MyMySQL
+  http://github.com/ziutek/mymysql
+
+o Go-MySQL-Driver
+  https://github.com/Go-SQL-Driver/MySQL/
+
+I've used both of them in production, programs are running for months with
+connection numbers in the millions without failure.
+
+Other SQL database drivers are listed on go-wiki.
+
+Import when using MyMySQL :
+    import (
+        "database/sql"
+        _ "github.com/ziutek/mymysql/godrv"
+    )
+
+Import when using Go-MySQL-Driver :
+    import (
+        "database/sql"
+        _ "github.com/go-sql-driver/mysql"
+    )
+
+Connecting and closing using MyMySQL :
+    con, err := sql.Open("mymysql", database+"/"+user+"/"+password)
+    defer con.Close()
+    // here you can use the connection, it will be closed when function returns
+
+Connecting and closing using Go-MySQL-Driver :
+    con, err := sql.Open("mysql", store.user+":"+store.password+"@/"+store.database)
+    defer con.Close()
+
+Select one row :
+    row := con.QueryRow("select mdpr, x, y, z from sometable where id=?", id)
+    cb := new(SomeThing)
+    err := row.Scan(&cb.Mdpr, &cb.X, &cb.Y, &cb.Z)
+
+Select multiple rows and build an array with results :
+    rows, err := con.Query("select a, b from item where p1=? and p2=?", p1, p2)
+    if err != nil { /* error handling */}
+    items := make([]*SomeStruct, 0, 10)
+    var ida, idb uint
+    for rows.Next() {
+        err = rows.Scan(&ida, &idb)
+        if err != nil { /* error handling */}
+        items = append(items, &SomeStruct{ida, idb})
+    }
+
+Insert :
+    _, err = con.Exec("insert into tbl (id, mdpr, isok) values (?, ?, 1)", id, mdpr)
+
+You'll see that working in Go with MySQL is a delightful experience : I never
+had a problem, my servers run for months without errors or leaks.  The fact
+that most functions simply take a variable number of arguments lighten a task
+which is tedious in many languages.
+
+Note that if, in the future, you need to use another MySQL driver, you'll just
+have to change two lines in one go file : the line doing the import and the
+line opening the connection.
+
+edited Apr 1 at 10:38
+
+answered Jul 6 '12 at 6:41
+Denys Séguret http://stackoverflow.com/users/263525/denys-s%c3%a9guret
+
+
+2 Thank you so much, I'll give it a try. I love that Go provides the
+database/sql package that libraries can implement.
+– GiantSquid Jul 8 '12 at 0:09
+http://stackoverflow.com/users/78640/giantsquid
+
+7 Excellent primer for newbies. Thanks. – Rick-777 Nov 26 '12 at 20:53
+http://stackoverflow.com/users/204313/rick-777
+
+2 A list of tested drivers (for other DBMSs, too) is available at
+code.google.com/p/go-wiki/wiki/SQLDrivers[1] There is a second popular
+MySQL-driver: github.com/Go-SQL-Driver/MySQL[2] (written by me)
+– Julien Schmidt Jan 13 '13 at 3:31
+http://stackoverflow.com/users/854830/julien-schmidt
+
+1 @JulienSchmidt I edited my answer to reference your link.  If you happen to
+have a link to a comparison between those two drivers, it would be welcome.
+– Denys Séguret Jan 13 '13 at 10:02
+http://stackoverflow.com/users/263525/denys-s%c3%a9guret
+
+1 @Zeynel It's just an example (taken from this personal project[3]).  I
+edited replacing it with SomeThing.  The point of that line is to show how to
+directly fill a struct with the result of your query without intermediate
+variables.
+– Denys Séguret Jul 11 '13 at 12:11
+http://stackoverflow.com/users/263525/denys-s%c3%a9guret
+
+-----------------------------------------------------------------------------
+
+few things to take note the select 1 row example :
+    row := con.QueryRow("select mdpr, x, y, z from sometable where id=?",id) 
+    cb := new(SomeThing) 
+    err := row.Scan(&cb.Mdpr, &cb.X, &cb.Y, &cb.Z)
+
+there is a missing row.Next() in this example.  it need to call the row.Next()
+to grab the first row returned.
+
+also there is some inflexibility to the library which in some way try to
+promote data minimalism.  if you try to select columns that is not Scan it
+will throw errors (not just warnings)
+
+answered Jun 15 '14 at 9:35
+Badoet 
+0
+down vote
+few things to take note the select 1 row example :
+
+row := con.QueryRow("select mdpr, x, y, z from sometable where id=?",id) 
+cb := new(SomeThing) 
+err := row.Scan(&cb.Mdpr, &cb.X, &cb.Y, &cb.Z)
+there is a missing row.Next() in this example. it need to call the row.Next() to grab the first row returned.
+
+also there is some inflexibility to the library which in some way try to promote data minimalism. if you try to select columns that is not Scan it will throw errors (not just warnings)
+
+shareimprove this answer
+answered Jun 15 '14 at 9:35
+
+Badoet http://stackoverflow.com/users/613896/badoet
+
+2 This isn't accurate: the QueryRow function returns *Row.  This function
+asserts that the query returns a single row. Query() returns (*Rows, error),
+which does require a call to rows.Next().
+
+– Alan LaMielle Jun 30 '14 at 23:40 
+http://stackoverflow.com/users/72522/alan-lamielle
+
+
+Links
+=====
+[1] code.google.com/p/go-wiki/wiki/SQLDrivers 
+http://code.google.com/p/go-wiki/wiki/SQLDrivers
+
+[2] github.com/Go-SQL-Driver/MySQL
+https://github.com/Go-SQL-Driver/MySQL/
+
+[3] this personal project
+https://github.com/Canop/braldop
+
+
+Go-MySQL-Driver
+A MySQL-Driver for Go's database/sql package
+go-sql-driver/mysql
+Go MySQL Driver is a lightweight and fast MySQL driver for Go's (golang)
+database/sql package http://godoc.org/github.com/go-sql-driver/mysql
+https://github.com/Go-SQL-Driver/MySQL/
+
+MyMySQL
+http://github.com/ziutek/mymysql
+
+What's the recommended way to connect to MySQL from Go?
+http://stackoverflow.com/questions/11353679/whats-the-recommended-way-to-connect-to-mysql-from-go
