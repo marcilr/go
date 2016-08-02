@@ -9,6 +9,11 @@ comments.txt
   Comments
   https://golang.org/ref/spec#Comments
 
+help.txt
+  go help
+  Use "go help [command]" for more information about a command.
+  --goobook, gobook.0.pdf, p. 18
+
 syntax.txt
   Syntax
 
