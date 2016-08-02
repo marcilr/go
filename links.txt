@@ -69,6 +69,11 @@ popular formats: json and YAML. The examples are
 production ready. 
 http://goinbigdata.com/persisting-application-configuration-in-golang/
 
+The Go Blog
+Strings, bytes, runes and characters in Go
+23 October 2013
+https://blog.golang.org/strings
+
 The Go Programming Language Specification
 https://golang.org/ref/spec
 
