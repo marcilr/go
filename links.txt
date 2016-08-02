@@ -14,6 +14,9 @@ Go MySQL Driver is a lightweight and fast MySQL driver for Go's (golang)
 database/sql package http://godoc.org/github.com/go-sql-driver/mysql
 https://github.com/Go-SQL-Driver/MySQL/
 
+Go MySQL Driver wiki
+https://github.com/go-sql-driver/mysql/wiki/Examples
+
 MyMySQL
 http://github.com/ziutek/mymysql
 
