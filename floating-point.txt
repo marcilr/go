@@ -1,0 +1,20 @@
+floating-point.txt
+Created Tue Aug  2 11:06:51 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+floating point
+  float32
+  float64
+  complex64
+  complex128
+
+Go has two floating point types: float32 and float64
+(also often referred to as single precision and double
+precision respectively) as well as two additional types
+for representing complex numbers (numbers with
+imaginary parts): complex64 and complex128 . Generally
+we should stick with float64 when working with float-
+ing point numbers.
+
+gobook.0.pdf, p. 27-28
