@@ -55,9 +55,19 @@ GOPATH environment variable
 https://golang.org/doc/code.html#GOPATH
 https://golang.org/cmd/go/#hdr-GOPATH_environment_variable
 
+How to handle configuration in Go [closed]
+http://stackoverflow.com/questions/16465705/how-to-handle-configuration-in-go
+
 Official Go support
 Cosmin Nicolaescu on September 23, 2014
 https://stripe.com/blog/official-go-support
+
+Persisting Application Configuration In Golang
+25 JUNE 2016 on Golang
+Explains how to do it with examples for two most
+popular formats: json and YAML. The examples are
+production ready. 
+http://goinbigdata.com/persisting-application-configuration-in-golang/
 
 The Go Programming Language Specification
 https://golang.org/ref/spec
