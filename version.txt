@@ -1,0 +1,15 @@
+version.txt
+Created Tue Aug  2 10:30:40 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+$ go version
+go version go1.6.3 linux/amd64
+$
+
+--goobook, gobook.0.pdf, p. 17-18
+
+
+Links
+=====
+
