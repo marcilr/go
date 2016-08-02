@@ -1,0 +1,15 @@
+integer-types.txt
+Created Tue Aug  2 10:59:52 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Integer types
+
+uint8 , uint16 , uint32 , uint64,
+int8 , int16 , int32 and int64.
+
+
+uint - Unsigned integer
+
+
+gobook.0.pdf, p. 25-26
