@@ -8,6 +8,11 @@ Go related links
 
 Links
 =====
+An Introduction to Programming in Go
+by Caleb Doxsey
+https://www.golang-book.com/books/intro
+https://www.golang-book.com/public/pdf/gobook.0.pdf
+
 command go
 https://golang.org/cmd/go/
 
