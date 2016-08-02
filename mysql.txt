@@ -19,6 +19,15 @@ connection numbers in the millions without failure.
 --stackoverflow.com/questions/11353679/
 
 
+Installation
+============
+Simple install the package to your $GOPATH with the go tool from shell:
+
+  $ go get github.com/go-sql-driver/mysql
+
+Make sure Git is installed on your machine and in your system's PATH.
+--github.com/Go-SQL-Driver/MySQL/#installation
+
 
 Links
 =====
