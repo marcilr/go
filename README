@@ -5,6 +5,10 @@ Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+usage.txt
+  Usage
+  https://github.com/Go-SQL-Driver/MySQL/#usage
+
 whats-the-recommended-way-to-connect-to-mysql-from-go.txt
   What's the recommended way to connect to MySQL from Go?
   asked Jul 5 '12 at 23:00
