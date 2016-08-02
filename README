@@ -19,6 +19,12 @@ help.txt
   Use "go help [command]" for more information about a command.
   --goobook, gobook.0.pdf, p. 18
 
+integer-types.txt
+  Integer types
+  uint8 , uint16 , uint32 , uint64,
+  int8 , int16 , int32 and int64.
+  gobook.0.pdf, p. 25-26
+
 syntax.txt
   Syntax
 
