@@ -62,6 +62,10 @@ Official Go support
 Cosmin Nicolaescu on September 23, 2014
 https://stripe.com/blog/official-go-support
 
+Package fmt
+import "fmt"
+https://golang.org/pkg/fmt/
+
 Persisting Application Configuration In Golang
 25 JUNE 2016 on Golang
 Explains how to do it with examples for two most
