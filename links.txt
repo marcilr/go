@@ -28,6 +28,9 @@ go
 The Go Programming Language
 https://code.google.com/p/go/
 
+Go by Example: Environment Variables
+https://gobyexample.com/environment-variables
+
 Go has a debugger - and it's awesome!
 18 Jun 2015 by Filippo Valsorda.
 https://blog.cloudflare.com/go-has-a-debugger-and-its-awesome/
