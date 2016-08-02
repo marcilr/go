@@ -9,6 +9,13 @@ comments.txt
   Comments
   https://golang.org/ref/spec#Comments
 
+floating-point.txt
+  floating point
+    float32
+    float64
+    complex64
+    complex128
+
 godoc.txt
   godoc package [name ...]
   go docuemntation
