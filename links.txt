@@ -8,9 +8,24 @@ Go related links
 
 Links
 =====
+command go
+https://golang.org/cmd/go/
+
+Frequently Asked Questions (FAQ)
+The Go Programming Language
+o How do I write a unit test?
+https://golang.org/doc/faq
+
+Global Variables with GO
+http://stackoverflow.com/questions/5410690/global-variables-with-go
+
 go
 The Go Programming Language
 https://code.google.com/p/go/
+
+Go has a debugger - and it's awesome!
+18 Jun 2015 by Filippo Valsorda.
+https://blog.cloudflare.com/go-has-a-debugger-and-its-awesome/
 
 go home page
 http://golang.org/
@@ -20,9 +35,20 @@ Go MySQL Driver is a lightweight and fast MySQL driver for Go's (golang)
 database/sql package http://godoc.org/github.com/go-sql-driver/mysql
 https://github.com/go-sql-driver/mysql
 
+Golang: format a string without printing?
+http://stackoverflow.com/questions/11123865/golang-format-a-string-without-printing
+
+GOPATH environment variable
+https://golang.org/doc/code.html#GOPATH
+https://golang.org/cmd/go/#hdr-GOPATH_environment_variable
+
 Official Go support
 Cosmin Nicolaescu on September 23, 2014
 https://stripe.com/blog/official-go-support
 
 The Go Programming Language Specification
 https://golang.org/ref/spec
+
+Variables
+Go by Example: Variables
+https://gobyexample.com/variables
