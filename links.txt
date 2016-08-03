@@ -48,6 +48,9 @@ mailgun/godebug
 A cross-platform debugger for Go.
 https://github.com/mailgun/godebug
 
+GoLang: Access struct property by name
+http://stackoverflow.com/questions/18930910/golang-access-struct-property-by-name
+
 Golang: format a string without printing?
 http://stackoverflow.com/questions/11123865/golang-format-a-string-without-printing
 
@@ -80,6 +83,10 @@ https://blog.golang.org/strings
 
 The Go Programming Language Specification
 https://golang.org/ref/spec
+
+The right way to handle YAML in Go
+November 29, 2014
+http://ghodss.com/2014/the-right-way-to-handle-yaml-in-golang/
 
 Variables
 Go by Example: Variables
