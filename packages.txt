@@ -15,6 +15,13 @@ import "fmt"
 
 --golang.org/pkg/fmt/
 
+Package ioutil
+==============
+Package ioutil implements some I/O utility functions.
+
+import "io/ioutil"
+--golang.org/pkg/io/ioutil/
+
 
 Package yaml
 ============
@@ -29,6 +36,11 @@ Package fmt
 Implements formatted I/O with functions analogous to C's printf
 and scanf
 https://golang.org/pkg/fmt/
+
+Package ioutil
+import "io/ioutil"
+Package ioutil implements some I/O utility functions.
+https://golang.org/pkg/io/ioutil/
 
 Package yaml
 Implements YAML support for the Go language.
