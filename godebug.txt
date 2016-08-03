@@ -1,0 +1,26 @@
+godebug.txt
+Created Wed Aug  3 10:32:58 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+godebug uses source code generation to instrument your program with debugging
+calls.  go tool cover takes a similar approach to code coverage. When you run
+godebug, it parses your program, instruments function calls, variable
+declarations, and statement lines, outputs the resulting code somewhere, and
+runs/compiles it.  When this modified code runs, it stops at breakpoints and
+lets you step through the program and inspect variables.
+--github.com/
+
+
+Installation
+============
+$ go get github.com/mailgun/godebug
+--gtihub.com
+
+
+
+Links
+=====
+
+mailgun/godebug
+https://github.com/mailgun/godebug
