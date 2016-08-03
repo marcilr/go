@@ -28,6 +28,10 @@ go
 The Go Programming Language
 https://code.google.com/p/go/
 
+Go by Example: Arrays
+In Go, an array is a numbered sequence of elements of a specific length.
+https://gobyexample.com/arrays
+
 Go by Example: Environment Variables
 https://gobyexample.com/environment-variables
 
@@ -53,6 +57,9 @@ http://stackoverflow.com/questions/18930910/golang-access-struct-property-by-nam
 
 Golang: format a string without printing?
 http://stackoverflow.com/questions/11123865/golang-format-a-string-without-printing
+
+Golang - How to print struct variables in console?
+http://stackoverflow.com/questions/24512112/golang-how-to-print-struct-variables-in-console
 
 GOPATH environment variable
 https://golang.org/doc/code.html#GOPATH
@@ -94,3 +101,8 @@ http://ghodss.com/2014/the-right-way-to-handle-yaml-in-golang/
 Variables
 Go by Example: Variables
 https://gobyexample.com/variables
+
+YAML support for the Go language.
+go-yaml/yaml
+https://github.com/go-yaml/yaml
+
