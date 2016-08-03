@@ -1,0 +1,13 @@
+links.txt
+Created Wed Aug  3 11:11:44 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+I/O related links
+
+
+Links
+=====
+How to read/write from/to file?
+Great page with examples
+http://stackoverflow.com/questions/1821811/how-to-read-write-from-to-file
