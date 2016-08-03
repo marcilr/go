@@ -1,0 +1,35 @@
+packages.txt
+Created Wed Aug  3 10:40:26 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Packages
+
+
+Package fmt
+===========
+Package fmt implements formatted I/O with functions analogous to C's printf
+and scanf. The format 'verbs' are derived from C's but are simpler.
+
+import "fmt"
+
+--golang.org/pkg/fmt/
+
+
+Package yaml
+============
+Package yaml implements YAML support for the Go language.
+
+--godoc.org/gopkg.in/yaml.v2
+
+
+Links
+=====
+Package fmt
+Implements formatted I/O with functions analogous to C's printf
+and scanf
+https://golang.org/pkg/fmt/
+
+Package yaml
+Implements YAML support for the Go language.
+https://godoc.org/gopkg.in/yaml.v2
