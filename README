@@ -1,0 +1,45 @@
+README
+Created Wed Aug  3 07:54:53 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+00INSTALL/
+  Installation of go on debian debian 8.5 amd64
+
+golang_quickstart.txt
+  golang quickstart
+  by Whithame Reeve Whitham Reeve <wreeve@gci.com>
+  Wrote when writing a poller at GCI.
+
+go.txt
+  The Go Programming Language
+  https://code.google.com/p/go/
+
+go.uew
+  UltraEdit go syntax file.
+  https://github.com/downloads/weigj/go-misc/go.uew
+
+links.txt
+  Go related links
+
+mysql/
+  MySQL drivers
+  o MyMySQL
+    http://github.com/ziutek/mymysql
+
+  o Go-MySQL-Driver
+    https://github.com/Go-SQL-Driver/MySQL/
+
+pdf/
+  Portable Document Format files
+
+src/
+  Source code
+
+svn_ext_val.txt
+  List of repo hierarchical directories to checkout under go/
+
+syntax/
+  Syntax
