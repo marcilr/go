@@ -44,6 +44,11 @@ adg@golang.org
 https://golang.org/
 https://talks.golang.org/2014/names.slide#1
 
+Five suggestions for setting up a Go project
+by Dave Cheney
+The acme of foolishness
+http://dave.cheney.net/2014/12/01/five-suggestions-for-setting-up-a-go-project
+
 Frequently Asked Questions (FAQ)
 The Go Programming Language
 o How do I write a unit test?
