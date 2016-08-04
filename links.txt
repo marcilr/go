@@ -179,6 +179,9 @@ https://en.wikipedia.org/wiki/INI_file
 Is there a foreach in Go?
 http://stackoverflow.com/questions/7782411/is-there-a-foreach-in-go
 
+multiple packages in the same folder and package keyword useless now?
+https://groups.google.com/forum/#!topic/golang-nuts/l63mxm_5hyI
+
 Next Steps in Go: Code Organization    <===
 By Jared Carrolloll - October 27, 2013
 https://blog.pivotal.io/labs/labs/next-steps-in-go-code-organization
