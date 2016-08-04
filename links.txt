@@ -6,6 +6,9 @@ Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
 Go related links
 
 
+Go standard library
+
+
 Links
 =====
 A Tour of Go
