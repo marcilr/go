@@ -1,2 +1,2 @@
-# git-dev-go-lang-packages-ini
+# git-dev-lang-go-packages-ini
 Package ini
