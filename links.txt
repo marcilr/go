@@ -81,6 +81,10 @@ http://stackoverflow.com/questions/16465705/how-to-handle-configuration-in-go
 How to Write Go Code
 https://golang.org/doc/code.html
 
+INI file
+From Wikipedia, the free encyclopedia
+https://en.wikipedia.org/wiki/INI_file
+
 Is there a foreach in Go?
 http://stackoverflow.com/questions/7782411/is-there-a-foreach-in-go
 
