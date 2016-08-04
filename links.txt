@@ -79,6 +79,9 @@ Official Go support
 Cosmin Nicolaescu on September 23, 2014
 https://stripe.com/blog/official-go-support
 
+Packages
+https://golang.org/pkg/
+
 Package fmt
 import "fmt"
 https://golang.org/pkg/fmt/
