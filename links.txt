@@ -8,6 +8,10 @@ Go related links
 
 Links
 =====
+A Tour of Go
+to learn the language proper
+https://tour.golang.org/
+
 An Introduction to Programming in Go
 by Caleb Doxsey
 https://www.golang-book.com/books/intro
@@ -16,6 +20,14 @@ https://www.golang-book.com/public/pdf/gobook.0.pdf
 Command go
 Go is a tool for managing Go source code.
 https://golang.org/cmd/go/
+
+documentation page
+for a set of in-depth articles about the Go language and its libraries and tools.
+https://golang.org/doc/#articles
+
+Effective Go
+Tips on writing clear, idiomatic Go code.
+https://golang.org/doc/effective_go.html
 
 Frequently Asked Questions (FAQ)
 The Go Programming Language
@@ -43,6 +55,10 @@ https://blog.cloudflare.com/go-has-a-debugger-and-its-awesome/
 go home page
 http://golang.org/
 
+Go issue tracker
+report bugs
+https://golang.org/issue
+
 Go MySQL Driver 
 go-sql-driver/mysql
 A lightweight and fast MySQL driver for Go's (golang)
@@ -52,6 +68,13 @@ https://github.com/go-sql-driver/mysql
 Go Search
 A code search engine
 http://go-search.org/
+
+Go Nuts
+Official mailing list for discussion of the Go language
+https://groups.google.com/group/golang-nuts
+
+Go Wiki
+https://golang.org/wiki/Projects
 
 GoDoc
 A package index and search engine
@@ -74,6 +97,10 @@ http://stackoverflow.com/questions/24512112/golang-how-to-print-struct-variables
 GOPATH environment variable
 https://golang.org/doc/code.html#GOPATH
 https://golang.org/cmd/go/#hdr-GOPATH_environment_variable
+
+golang-announce 
+mailing list to be notified when a new stable version of Go is released
+https://groups.google.com/group/golang-announce
 
 How to handle configuration in Go [closed]
 http://stackoverflow.com/questions/16465705/how-to-handle-configuration-in-go
