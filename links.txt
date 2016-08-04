@@ -118,6 +118,10 @@ https://en.wikipedia.org/wiki/INI_file
 Is there a foreach in Go?
 http://stackoverflow.com/questions/7782411/is-there-a-foreach-in-go
 
+Next Steps in Go: Code Organization    <===
+By Jared Carrolloll - October 27, 2013
+https://blog.pivotal.io/labs/labs/next-steps-in-go-code-organization
+
 Official Go support
 Cosmin Nicolaescu on September 23, 2014
 https://stripe.com/blog/official-go-support
