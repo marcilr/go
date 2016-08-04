@@ -79,6 +79,11 @@ https://groups.google.com/group/golang-nuts
 Go Wiki
 https://golang.org/wiki/Projects
 
+godep                                                                  <===
+godep helps build packages reproducibly by fixing their dependencies.
+tools/godep
+https://github.com/tools/godep
+
 GoDoc
 A package index and search engine
 https://godoc.org/
