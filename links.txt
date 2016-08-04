@@ -88,6 +88,9 @@ Packages names
 The Go Blog
 https://blog.golang.org/package-names
 
+Package name guidelines
+https://golang.org/doc/effective_go.html#names
+
 Persisting Application Configuration In Golang
 25 JUNE 2016 on Golang
 Explains how to do it with examples for two most
