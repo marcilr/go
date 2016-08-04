@@ -105,10 +105,10 @@ https://groups.google.com/group/golang-announce
 How to handle configuration in Go [closed]
 http://stackoverflow.com/questions/16465705/how-to-handle-configuration-in-go
 
-How to read/write from/to file?  <===
+How to read/write from/to file?     <===
 http://stackoverflow.com/questions/1821811/how-to-read-write-from-to-file
 
-How to Write Go Code
+How to Write Go Code                <===
 https://golang.org/doc/code.html
 
 INI file
