@@ -15,6 +15,11 @@ A Tour of Go
 to learn the language proper
 https://tour.golang.org/
 
+An introduction to cross compilation with Go
+by Dave Cheney
+The acme of foolishnes
+http://dave.cheney.net/2012/09/08/an-introduction-to-cross-compilation-with-go
+
 An Introduction to Programming in Go
 by Caleb Doxsey
 https://www.golang-book.com/books/intro
