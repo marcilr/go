@@ -1,0 +1,14 @@
+links.txt
+Created Thu Aug  4 08:55:54 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+ini related links
+
+
+Links
+=====
+package ini
+import "github.com/vaughan0/go-ini"
+Package ini provides functions for parsing INI configuration files.
+https://godoc.org/github.com/vaughan0/go-ini
