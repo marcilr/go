@@ -14,7 +14,7 @@ https://www.golang-book.com/books/intro
 https://www.golang-book.com/public/pdf/gobook.0.pdf
 
 Command go
-The go tool
+Go is a tool for managing Go source code.
 https://golang.org/cmd/go/
 
 Frequently Asked Questions (FAQ)
