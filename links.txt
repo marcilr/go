@@ -13,7 +13,8 @@ by Caleb Doxsey
 https://www.golang-book.com/books/intro
 https://www.golang-book.com/public/pdf/gobook.0.pdf
 
-command go
+Command go
+The go tool
 https://golang.org/cmd/go/
 
 Frequently Asked Questions (FAQ)
