@@ -155,6 +155,11 @@ Projects at the Go Wiki
 A curated list of Go projects
 https://golang.org/wiki/Projects
 
+Setting up a Go Development Environment
+24 Mar 2013
+Brian's Waster of Time
+http://skife.org/golang/2013/03/24/go_dev_env.html
+
 The Go Blog
 Strings, bytes, runes and characters in Go
 23 October 2013
@@ -174,4 +179,3 @@ https://gobyexample.com/variables
 YAML support for the Go language.
 go-yaml/yaml
 https://github.com/go-yaml/yaml
-
