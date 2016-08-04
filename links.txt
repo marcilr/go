@@ -5,8 +5,26 @@ Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
 
 Go related links
 
+Dependency hell is a colloquial term for the frustration of some software
+users who have installed software packages which have dependencies on specific
+versions of other software packages. -Wikipedia
 
-Go standard library
+
+o Go standard library
+o Test files end in _test.go
+  https://talks.golang.org/2014/organizeio.slide#7
+o
+$GOPATH/
+    src/
+        github.com/user/repo/
+            mypkg/
+                mysrc1.go
+                mysrc2.go
+            cmd/mycmd/
+                main.go
+    bin/
+        mycmd
+https://talks.golang.org/2014/organizeio.slide#9
 
 
 Links
@@ -28,6 +46,10 @@ https://www.golang-book.com/public/pdf/gobook.0.pdf
 Command go
 Go is a tool for managing Go source code.
 https://golang.org/cmd/go/
+
+Contributing to Open Source Git Repositories in Go  <===
+by Katrina Owen.
+https://splice.com/blog/contributing-open-source-git-repositories-go/
 
 documentation page
 for a set of in-depth articles about the Go language and its libraries and tools.
@@ -54,6 +76,17 @@ The Go Programming Language
 o How do I write a unit test?
 https://golang.org/doc/faq
 
+gb is a project based build tool for the Go programming language.
+https://getgb.io/
+
+gb, a project based build tool for the Go programming language
+Why is a project based approach, as opposed to a workspace based
+approach like $GOPATH, useful?
+http://dave.cheney.net/2015/06/09/gb-a-project-based-build-tool-for-the-go-programming-language
+
+Introducing gb, a project based build tool for the Go programming language
+http://dave.cheney.net/2015/05/12/introducing-gb
+
 Global Variables with GO
 http://stackoverflow.com/questions/5410690/global-variables-with-go
 
@@ -78,6 +111,9 @@ http://golang.org/
 Go issue tracker
 report bugs
 https://golang.org/issue
+
+go list, your Swiss army knife
+http://dave.cheney.net/2014/09/14/go-list-your-swiss-army-knife
 
 Go MySQL Driver 
 go-sql-driver/mysql
@@ -151,6 +187,10 @@ Official Go support
 Cosmin Nicolaescu on September 23, 2014
 https://stripe.com/blog/official-go-support
 
+Organising Go code                                <===
+by David Crawshaw, presented at Google I/O 2014.
+http://talks.golang.org/2014/organizeio.slide#1
+
 Packages
 https://golang.org/pkg/
 
@@ -197,6 +237,9 @@ http://ghodss.com/2014/the-right-way-to-handle-yaml-in-golang/
 Variables
 Go by Example: Variables
 https://gobyexample.com/variables
+
+What does go build build ?
+http://dave.cheney.net/2014/06/04/what-does-go-build-build
 
 YAML support for the Go language.
 go-yaml/yaml
