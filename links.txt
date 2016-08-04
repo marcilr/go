@@ -37,6 +37,13 @@ Effective Go
 Tips on writing clear, idiomatic Go code.
 https://golang.org/doc/effective_go.html
 
+Excellent talk on Go naming
+by Andrew Gerrand, Google Inc.
+adg@golang.org
+@enneff
+https://golang.org/
+https://talks.golang.org/2014/names.slide#1
+
 Frequently Asked Questions (FAQ)
 The Go Programming Language
 o How do I write a unit test?
