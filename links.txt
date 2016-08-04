@@ -83,6 +83,11 @@ Package fmt
 import "fmt"
 https://golang.org/pkg/fmt/
 
+Packages names
+4 February 2015
+The Go Blog
+https://blog.golang.org/package-names
+
 Persisting Application Configuration In Golang
 25 JUNE 2016 on Golang
 Explains how to do it with examples for two most
