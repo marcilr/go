@@ -88,7 +88,7 @@ Packages names
 The Go Blog
 https://blog.golang.org/package-names
 
-Package name guidelines
+Package name guidelines                          <===
 https://golang.org/doc/effective_go.html#names
 
 Persisting Application Configuration In Golang
