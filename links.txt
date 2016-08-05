@@ -66,6 +66,10 @@ adg@golang.org
 https://golang.org/
 https://talks.golang.org/2014/names.slide#1
 
+Exported names
+In Go, a name is exported if it begins with a capital letter.
+https://tour.golang.org/basics/3
+
 Five suggestions for setting up a Go project
 by Dave Cheney
 The acme of foolishness
