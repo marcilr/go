@@ -113,6 +113,9 @@ https://gobyexample.com/arrays
 Go by Example: Environment Variables
 https://gobyexample.com/environment-variables
 
+Go by Example: Multiple Return Values
+https://gobyexample.com/multiple-return-values
+
 Go has a debugger - and it's awesome!
 18 Jun 2015 by Filippo Valsorda.
 https://blog.cloudflare.com/go-has-a-debugger-and-its-awesome/
