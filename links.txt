@@ -63,6 +63,10 @@ Effective Go
 Tips on writing clear, idiomatic Go code.
 https://golang.org/doc/effective_go.html
 
+Efficient String Concatenation in Go
+May 3, 2014
+http://herman.asia/efficient-string-concatenation-in-go
+
 Excellent talk on Go naming
 by Andrew Gerrand, Google Inc.
 adg@golang.org
