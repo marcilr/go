@@ -224,6 +224,11 @@ https://blog.golang.org/package-names
 Package name guidelines                          <===
 https://golang.org/doc/effective_go.html#names
 
+Package types
+Package types declares the data types and implements the algorithms for
+type-checking of Go packages.
+https://golang.org/pkg/go/types/
+
 Persisting Application Configuration In Golang   <===
 25 JUNE 2016 on Golang
 Explains how to do it with examples for two most
