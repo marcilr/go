@@ -33,6 +33,10 @@ A Tour of Go                 <===
 to learn the language proper
 https://tour.golang.org/
 
+About the go command
+The Go Programming Language
+https://golang.org/doc/articles/go_command.html
+
 An introduction to cross compilation with Go
 by Dave Cheney
 The acme of foolishnes
