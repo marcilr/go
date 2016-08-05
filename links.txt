@@ -194,7 +194,7 @@ Official Go support
 Cosmin Nicolaescu on September 23, 2014
 https://stripe.com/blog/official-go-support
 
-Organising Go code                                <===
+Organizing Go code                                <===
 by David Crawshaw, presented at Google I/O 2014.
 http://talks.golang.org/2014/organizeio.slide#1
 
