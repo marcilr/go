@@ -23,6 +23,13 @@ import "io/ioutil"
 --golang.org/pkg/io/ioutil/
 
 
+Package regexp
+==============
+Package regexp implements regular expression search.
+import "regexp"
+--golang.org/pkg/regexp/
+
+
 Package yaml
 ============
 Package yaml implements YAML support for the Go language.
@@ -41,6 +48,11 @@ Package ioutil
 import "io/ioutil"
 Package ioutil implements some I/O utility functions.
 https://golang.org/pkg/io/ioutil/
+
+Package regexp
+Implements regular expression search.
+import "regexp"
+https://golang.org/pkg/regexp/
 
 Package yaml
 Implements YAML support for the Go language.
