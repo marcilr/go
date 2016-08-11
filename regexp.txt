@@ -1,0 +1,15 @@
+regexp.txt
+Created Thu Aug 11 14:26:47 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Package regexp
+
+
+
+Links
+=====
+Package regexp
+import "regexp"
+The Go Programming Language
+https://golang.org/pkg/regexp/
