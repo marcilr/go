@@ -8,6 +8,12 @@ I/O related links
 
 Links
 =====
+Package bufio
+import "bufio"
+The Go Programming Language
+Has scanner.Scan() examples with use of custom split function.
+https://golang.org/pkg/bufio/#Scanner
+
 How to read/write from/to file?
 Great page with examples
 http://stackoverflow.com/questions/1821811/how-to-read-write-from-to-file
