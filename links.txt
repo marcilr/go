@@ -14,6 +14,10 @@ The Go Programming Language
 Has scanner.Scan() examples with use of custom split function.
 https://golang.org/pkg/bufio/#Scanner
 
+Go by Example: Reading Files
+ioutil.ReadFile()
+https://gobyexample.com/reading-files
+
 How to read/write from/to file?
 Great page with examples
 http://stackoverflow.com/questions/1821811/how-to-read-write-from-to-file
