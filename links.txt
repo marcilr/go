@@ -11,3 +11,7 @@ Links
 How to read/write from/to file?
 Great page with examples
 http://stackoverflow.com/questions/1821811/how-to-read-write-from-to-file
+
+reading file line by line in go
+Uses bufio.NewScanner(file)
+http://stackoverflow.com/questions/8757389/reading-file-line-by-line-in-go
