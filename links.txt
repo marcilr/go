@@ -23,6 +23,9 @@ http://github.com/ziutek/mymysql
 MySQL performance in go-nuts mailing list
 https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/vYnSS_ABr4M
 
+Retrieving Result Sets
+http://go-database-sql.org/retrieving.html
+
 SQL database drivers
 go-wiki
 https://github.com/golang/go/wiki/SQLDrivers
