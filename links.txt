@@ -12,7 +12,7 @@ YAML
 From Wikipedia, the free encyclopedia
 https://en.wikipedia.org/wiki/YAML
 
-ackage bufio
+Package bufio
 import "bufio"
 The Go Programming Language
 https://golang.org/pkg/bufio/
