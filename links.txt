@@ -1,0 +1,12 @@
+links.txt
+Created Thu Aug 11 15:22:12 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+regex related links
+
+
+Links
+=====
+StefanSchroeder/Golang-Regex-Tutorial
+https://github.com/StefanSchroeder/Golang-Regex-Tutorial/blob/master/01-chapter1.markdown
