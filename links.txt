@@ -14,6 +14,9 @@ The Go Programming Language
 Has scanner.Scan() examples with use of custom split function.
 https://golang.org/pkg/bufio/#Scanner
 
+Go by Example: Defer
+https://gobyexample.com/defer
+
 Go by Example: Reading Files
 ioutil.ReadFile()
 https://gobyexample.com/reading-files
