@@ -51,6 +51,9 @@ by Caleb Doxsey
 https://www.golang-book.com/books/intro
 https://www.golang-book.com/public/pdf/gobook.0.pdf
 
+boolean values set to true unintentionally changing to false
+http://stackoverflow.com/questions/29270083/boolean-values-set-to-true-unintentionally-changing-to-false
+
 Command go
 Go is a tool for managing Go source code.
 https://golang.org/cmd/go/
@@ -185,6 +188,9 @@ https://groups.google.com/group/golang-announce
 How to handle configuration in Go [closed]
 http://stackoverflow.com/questions/16465705/how-to-handle-configuration-in-go
 
+How to read a file starting from a specific line number using Scanner?
+http://stackoverflow.com/questions/34654514/how-to-read-a-file-starting-from-a-specific-line-number-using-scanner
+
 How to read/write from/to file?     <===
 http://stackoverflow.com/questions/1821811/how-to-read-write-from-to-file
 
@@ -260,6 +266,10 @@ https://golang.org/ref/spec
 The right way to handle YAML in Go
 November 29, 2014
 http://ghodss.com/2014/the-right-way-to-handle-yaml-in-golang/
+
+Things I Wish Someone Had Told Me About Golang
+11 Mar 2013 - By Karl Seguin
+http://openmymind.net/Things-I-Wish-Someone-Had-Told-Me-About-Go/
 
 Variables
 Go by Example: Variables
