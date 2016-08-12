@@ -1,0 +1,21 @@
+fmt.txt
+Created Fri Aug 12 08:32:26 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Package fmt
+import "fmt"
+
+
+Package fmt implements formatted I/O with functions analogous to C's printf and 
+scanf. The format 'verbs' are derived from C's but are simpler.
+--golang.org/pkg/fmt/
+
+
+Links
+=====
+Package fmt
+import "fmt"
+Package fmt implements formatted I/O with functions analogous to C's printf and
+scanf. The format 'verbs' are derived from C's but are simpler.
+https://golang.org/pkg/fmt/
