@@ -27,6 +27,20 @@ For more detail, run "go help test" and "go help testflag".
 --golang.org/pkg/testing/
 
 
+Installed on GCI covellite workstation:
+  $ go list ... | grep testing
+  testing
+  testing/iotest
+  testing/quick
+  $
+
+Still get error trying to run tests on covellite:
+  $ go test
+  can't load package: package .: found packages main (main.go)
+  and nvp (nvp.go) in /home/marcilr/git/gci/projects/generator-alarms/src
+  $
+
+
 Links
 =====
 Package testing
