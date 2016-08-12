@@ -6,6 +6,12 @@ Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 Packages
 
 
+List All Packages
+=================
+$ go list ...
+--stackoverflow.com/questions/28166249
+
+
 Package fmt
 ===========
 Package fmt implements formatted I/O with functions analogous to C's printf
@@ -14,6 +20,7 @@ and scanf. The format 'verbs' are derived from C's but are simpler.
 import "fmt"
 
 --golang.org/pkg/fmt/
+
 
 Package ioutil
 ==============
@@ -64,3 +71,7 @@ https://golang.org/pkg/regexp/
 Package yaml
 Implements YAML support for the Go language.
 https://godoc.org/gopkg.in/yaml.v2
+
+List All Packages
+How to list installed go packages
+http://stackoverflow.com/questions/28166249/how-to-list-installed-go-packages
