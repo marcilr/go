@@ -1,0 +1,39 @@
+examples.txt
+Created Fri Aug 12 07:41:37 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+
+git/gci/projects/generator-alarms/src/read-conf.go:100
+    /*
+     * Skip comment lines
+     * StefanSchroeder/Golang-Regex-Tutorial
+     * https://github.com/StefanSchroeder/Golang-Regex-Tutorial/blob/master/01-chapter1.markdown
+     */
+    // Match zero or more spaces
+    foo, err := regexp.Compile(`^\s*`)
+    // Will print 'true':
+    fmt.Println("%v", foo.MatchString(" foo "))
+
+    // Match zero or more spaces followed by #
+    foo, err = regexp.Compile(`^\s*#`)
+    // Will print 'false':
+    fmt.Println("%v", foo.MatchString("# foo "))
+    
+    // Match zero or more spaces followed by #
+    foo, err = regexp.Compile(`^\s*#`)
+    // Will print 'false':
+    fmt.Println("%v", foo.MatchString(" # foo "))
+
+
+Match a specific number of characters:
+1. Using -{0,2} matches 0, 1, 2 dashes.
+2. Using -{2,} matches 2 or more dashes.
+3. Using -{2} matches only 2 dashes.
+--stackoverflow.com/questions/22955703/r
+
+
+Links
+=====
+Regular expression match 0 or exact number of characters
+http://stackoverflow.com/questions/22955703/regular-expression-match-0-or-exact-number-of-characters
