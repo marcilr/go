@@ -8,5 +8,10 @@ regex related links
 
 Links
 =====
+Package regexp
+import "regexp"
+Package regexp implements regular expression search.
+https://golang.org/pkg/regexp/
+
 StefanSchroeder/Golang-Regex-Tutorial
 https://github.com/StefanSchroeder/Golang-Regex-Tutorial/blob/master/01-chapter1.markdown
