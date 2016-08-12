@@ -10,4 +10,5 @@ Links
 =====
 Ruby Arrays
 tutorialspoint
+Great details here
 http://www.tutorialspoint.com/ruby/ruby_arrays.htm
