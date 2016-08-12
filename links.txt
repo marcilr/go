@@ -28,3 +28,7 @@ http://stackoverflow.com/questions/1821811/how-to-read-write-from-to-file
 reading file line by line in go
 Uses bufio.NewScanner(file)
 http://stackoverflow.com/questions/8757389/reading-file-line-by-line-in-go
+
+What is the difference between print and puts?
+puts adds a newline to the end of the output. print does not.
+http://stackoverflow.com/questions/5018633/what-is-the-difference-between-print-and-puts
