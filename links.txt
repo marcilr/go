@@ -65,6 +65,11 @@ Contributing to Open Source Git Repositories in Go  <===
 by Katrina Owen.
 https://splice.com/blog/contributing-open-source-git-repositories-go/
 
+Control structures - Go for loop, break, continue, range     <====
+GoLang Tutorials
+Wednesday, June 22, 2011
+http://golangtutorials.blogspot.com/2011/06/control-structures-go-for-loop-break.html
+
 documentation page
 for a set of in-depth articles about the Go language and its libraries and tools.
 https://golang.org/doc/#articles
@@ -280,6 +285,9 @@ https://gobyexample.com/variables
 
 What does go build build ?
 http://dave.cheney.net/2014/06/04/what-does-go-build-build
+
+What is the best way to convert byte array to string?
+http://stackoverflow.com/questions/14230145/what-is-the-best-way-to-convert-byte-array-to-string
 
 YAML support for the Go language.
 go-yaml/yaml
