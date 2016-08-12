@@ -54,6 +54,9 @@ https://www.golang-book.com/public/pdf/gobook.0.pdf
 boolean values set to true unintentionally changing to false
 http://stackoverflow.com/questions/29270083/boolean-values-set-to-true-unintentionally-changing-to-false
 
+Byte manipulation in Ruby
+https://www.happybearsoftware.com/byte-manipulation-in-ruby
+
 Command go
 Go is a tool for managing Go source code.
 https://golang.org/cmd/go/
