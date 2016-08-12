@@ -11,3 +11,6 @@ Filelist
 links.txt
   Type related links
 
+types.txt
+  Types
+
