@@ -1,0 +1,20 @@
+links.txt
+Created Fri Aug 12 14:03:23 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Hash related links
+
+
+Links
+=====
+Go maps in action
+The Go Blog
+The Go Programming Language
+Great hash details here
+https://blog.golang.org/go-maps-in-action
+
+Package hash
+import "hash"
+Package hash provides interfaces for hash functions.
+https://golang.org/pkg/hash/
