@@ -1,0 +1,20 @@
+strings.txt
+Created Fri Aug 12 10:30:48 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Package strings
+import "strings"
+
+
+Package strings implements simple functions to manipulate UTF-8 encoded strings.
+--golang.org/pkg/strings/
+
+
+
+Links
+=====
+Package strings
+import "strings"
+Package strings implements simple functions to manipulate UTF-8 encoded strings.
+https://golang.org/pkg/strings/
