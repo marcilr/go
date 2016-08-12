@@ -8,8 +8,12 @@ Package strings related links
 
 Links
 =====
+How to trim leading and trailing white spaces of a string in golang
+import "strings"
+t := strings.TrimSpace(s)
+http://stackoverflow.com/questions/22688010/how-to-trim-leading-and-trailing-white-spaces-of-a-string-in-golang
+
 Package strings
 import "strings"
 Package strings implements simple functions to manipulate UTF-8 encoded strings.
 https://golang.org/pkg/strings/
-
