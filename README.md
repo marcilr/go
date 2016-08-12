@@ -11,6 +11,9 @@ git-hub:  git-dev-lang-go-packages-testing
 
 Filelist
 ========
+links.txt
+  Package testing related links
+
 testing.txt
   Package testing
   import "testing"
