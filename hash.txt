@@ -5,3 +5,31 @@ Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 
 Hash
 
+
+Example
+=======
+I was able to create a hash for storing name-value pairs using:
+
+// Define nvp hash type in main body
+var nvp map[string]string
+
+// Intialize the nvp hashmap
+nvp = make(map[string]string)
+
+// Add name-value to hashmap
+nvp[pair[0]] = pair[1]
+
+
+// Loop over hashmap and print it out:
+for key, value := range nvp {
+    fmt.Println("Key:", key, "Value:", value)
+}
+
+
+Links
+=====
+Package hash
+import "hash"
+Package hash provides interfaces for hash functions.
+https://golang.org/pkg/hash/
+
