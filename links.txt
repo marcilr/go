@@ -18,3 +18,8 @@ execution of any function of the form
 where Xxx can be any alphanumeric string (but the first letter must not be in
 [a-z]) and serves to identify the test routine.
 https://golang.org/pkg/testing/
+
+Testing
+An Introduction to Programming in Go 
+Go Resources
+https://www.golang-book.com/books/intro/12
