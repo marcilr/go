@@ -40,9 +40,29 @@ Still get error trying to run tests on covellite:
   and nvp (nvp.go) in /home/marcilr/git/gci/projects/generator-alarms/src
   $
 
+Tried switching package to main in both nvp.go and nvp_test.go.
+Still get very similar error:
+ 
+  $ go test
+  can't load package: package nvp: found packages main (nvp.go) and
+  testing (testing.go) in /home/marcilr/gospace/src/nvp
+  $
+
 
 Links
 =====
+[go-nuts] Testing a package that has a main function in it
+grokbase
+Code from this pages tested correctly with "go test"!
+http://grokbase.com/t/gg/golang-nuts/138w20s8yd/go-nuts-testing-a-package-that-has-a-main-function-in-it
+
+Golang Testing > cant load package
+This page shows the error I am getting:
+> go test
+> can't load package: package .: found packages main (calculator.go) \
+and calculator (calculator_test.go) in  
+http://qaoverflow.com/question/golang-testing-cant-load-package/
+
 Package testing
 import "testing"
 The Go Programming Language
