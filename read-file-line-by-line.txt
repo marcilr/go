@@ -1,0 +1,52 @@
+read-file-line-by-line.txt
+Created Mon Aug 15 09:59:54 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+How to read a file starting from a specific line number using Scanner?
+
+edited Jan 8 at 9:03 - icza
+http://stackoverflow.com/users/1705598/icza
+
+asked Jan 7 at 11:54 - Amyth
+http://stackoverflow.com/users/1373822/amyth
+
+
+Instead of using a Scanner, use a bufio.Reader, specifically the ReadBytes
+or ReadString methods.  This way you can read up to each line termination,
+and still receive the full line with line endings.
+
+  r := bufio.NewReader(inputFile)
+
+  var line []byte
+  fPos := 0 // or saved position
+
+  for i := 1; ; i++ {
+      line, err = r.ReadBytes('\n')
+      fmt.Printf("[line:%d pos:%d] %q\n", i, fPos, line)
+
+      if err != nil {
+          break
+      }
+      fPos += len(line)
+  }
+
+  if err != io.EOF {
+      log.Fatal(err)
+  }
+
+You can store the combination of file position and line number however you
+choose, and the next time you start, you use inputFile.Seek(fPos, os.SEEK_SET)
+to move to where you left off.
+
+edited Jan 7 at 15:43
+answered Jan 7 at 15:07 - JimB
+http://stackoverflow.com/users/32880/jimb
+
+
+Links
+=====
+How to read a file starting from a specific line number using Scanner?
+asked Jan 7 at 11:54 - Amyth
+http://stackoverflow.com/questions/34654514/how-to-read-a-file-starting-from-a-specific-line-number-using-scanner
+
