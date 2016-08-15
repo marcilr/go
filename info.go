@@ -23,7 +23,7 @@ var infoflag bool = true
  * info()
  * Display info messags if infoflag is set to true.
  */
-func info(msg string) {
+func Info(msg string) {
 
 //   fmt.Println(msg)
 
@@ -40,11 +40,11 @@ func info(msg string) {
  */
 func main() {
 
-  info("main() START ***")
+  Info("main() START ***")
 
-  info("main() main body")
+  Info("main() main body")
 
-  info("main() END ***")
+  Info("main() END ***")
 
 }   // End main()
 
