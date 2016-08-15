@@ -1,0 +1,15 @@
+links.txt
+Created Mon Aug 15 15:13:17 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Package os related links
+
+
+Links
+=====
+Package os
+import "os"
+The Go Programming Language
+https://golang.org/pkg/os/
+
