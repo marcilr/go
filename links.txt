@@ -271,6 +271,11 @@ Setting up a Go Development Environment
 Brian's Waster of Time
 http://skife.org/golang/2013/03/24/go_dev_env.html
 
+The Core Packages                            <===
+An Introduction to Programming in Go 
+Go Resources 
+https://www.golang-book.com/books/intro/13
+
 The Go Blog
 Strings, bytes, runes and characters in Go
 23 October 2013
