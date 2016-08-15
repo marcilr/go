@@ -8,6 +8,12 @@ Package testing related links
 
 Links
 =====
+[go-nuts] Testing a package that has a main function in it
+grokbase
+Fumin Wang	
+Aug 28, 2013 at 5:17 am
+http://grokbase.com/t/gg/golang-nuts/138w20s8yd/go-nuts-testing-a-package-that-has-a-main-function-in-it
+
 Package testing
 import "testing"
 The Go Programming Language
