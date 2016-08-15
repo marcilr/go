@@ -10,18 +10,20 @@ import "strconv"
 github: git-dev-lang-go-packages-strconv
 
 
-Package strconv implements conversions to and from string representations of basic
-data types.
+Package strconv implements conversions to and from string representations of
+basic data types.
 
 
-Examples
+
+Filelist
 ========
-Itoa (int to string):
-  info("read() lineLength: " + strconv.Itoa(lineLength))
+links.txt
+  Package strconv related links
 
-FormatBool (bool to string):
-  info("read() regex match: " + strconv.FormatBool(isComment))
-
+strconv.txt
+  Package strconv implements conversions to and from string representations of
+  basic data types.
+  https://golang.org/pkg/strconv/
 
 
 Links
