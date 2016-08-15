@@ -40,9 +40,9 @@ sub-repositories.txt
 Links
 =====
 Sub-repositories
-  These packages are part of the Go Project but outside the main Go tree.  They
-  are developed under looser compatibility requirements than the Go core.
-  Install them with "go get".
-  The Go Programming Language
-  https://golang.org/pkg/
+These packages are part of the Go Project but outside the main Go tree.  They
+are developed under looser compatibility requirements than the Go core.
+Install them with "go get".
+The Go Programming Language
+https://golang.org/pkg/
 
