@@ -49,6 +49,38 @@ Still get very similar error:
   $
 
 
+Test results
+============
+Grokked from 'go do testing':
+  Within these functions, use the Error, Fail or related methods to signal
+  failure.
+
+
+Examples
+========
+/*
+ * TestRead()
+ * Test reading ini file.
+ */
+func TestRead(t *testing.T) {
+
+    confFile := "../../conf/mysql.ini"
+    nvp := Read(confFile)
+
+    // Return error if hashmap is nil
+    if nvp == nil{
+        t.Error("TestRead() hashap nvp == nil")
+    }
+    
+    // Loop of hashmap and print name-value pairs
+    fmt.Println("TestRead() Hashmap of name-value pair read by Package nvp:")
+    for key, value := range nvp {
+        fmt.Println("TestRead() Key:", key, "Value:", value)
+    }
+
+}   // End TestRead()
+
+
 Links
 =====
 [go-nuts] Testing a package that has a main function in it
