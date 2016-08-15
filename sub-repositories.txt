@@ -1,0 +1,37 @@
+sub-repositories.txt
+Created Mon Aug 15 15:37:57 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Sub-repositories
+
+
+These packages are part of the Go Project but outside the main Go tree.  They
+are developed under looser compatibility requirements than the Go core.
+Install them with "go get".
+
+benchmarks - benchmarks to measure Go as it is developed.
+blog       - blog.golang.org's implementation.
+build      - build.golang.org's implementation.
+crypto     - additional cryptography packages.
+debug      - an experimental debugger for Go.
+image      - additional imaging packages.
+mobile     - experimental support for Go on mobile platforms.
+net        - additional networking packages.
+sys        - ackages for making system calls.
+text       - packages for working with text.
+tool       - godoc, goimports, gorename, and other tools.
+tour       - tour.golang.org's implementation.
+exp        - experimental and deprecated packages (handle with care; may
+             change without warning).
+--golang.org/pkg/
+
+
+Links
+=====
+Sub-repositories
+These packages are part of the Go Project but outside the main Go tree.  They
+are developed under looser compatibility requirements than the Go core.
+Install them with "go get".
+The Go Programming Language
+https://golang.org/pkg/
