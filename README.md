@@ -11,6 +11,9 @@ github: git-dev-lang-go-packages-log
 
 Filelist
 ========
+links.txt
+  Package log related links
+
 log.txt
   Package log implements a simple logging package.  It defines a type, Logger,
   with methods for formatting output.  It also has a predefined 'standard'
