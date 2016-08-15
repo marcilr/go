@@ -23,6 +23,12 @@ https://golang.org/doc/go1compat
 [2] "go get"
 https://golang.org/cmd/go/#hdr-Download_and_install_packages_and_dependencies
 
+crypto/
+  Package crypto
+  import "crypto"
+  Package crypto collects common cryptographic constants.
+  https://golang.org/pkg/crypto/
+
 sub-repositories.txt
   Sub-repositories
   These packages are part of the Go Project but outside the main Go tree.
