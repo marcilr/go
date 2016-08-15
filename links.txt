@@ -1,0 +1,16 @@
+links.txt
+Created Mon Aug 15 15:21:55 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Package strconv related links
+
+
+Links
+=====
+Package strconv
+import "strconv"
+The Go Programming Language
+Package strconv implements conversions to and from string representations of
+basic data types.
+https://golang.org/pkg/strconv/
