@@ -11,5 +11,17 @@ github: git-dev-lang-go-debug-src
 
 Filelist
 ========
+info.go
+   Package to show use of info() function to display debugging
+   output.  info() used to be naming debug() but info() is a 
+   bit more manager friendly.
+
+info_test.go
+  Package to test info used to display messages.
+
+  Package to show use of info() function to display debugging
+  output.  info() used to be naming debug() but info() is a
+  bit more manager friendly.
+
 links.txt
   Source related links
