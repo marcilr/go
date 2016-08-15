@@ -23,4 +23,3 @@ os.txt
   failing file name when printed and will be of type *PathError, which may be
   unpacked for more information.
   https://golang.org/pkg/os/
-
