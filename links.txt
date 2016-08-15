@@ -1,0 +1,14 @@
+links.txt
+Created Mon Aug 15 14:46:42 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Package log related links
+
+
+Links
+=====
+Package log
+import "log"
+The Go Programming Language
+https://golang.org/pkg/log/
