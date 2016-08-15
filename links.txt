@@ -17,3 +17,8 @@ import "bufio"
 The Go Programming Language
 https://golang.org/pkg/bufio/
 
+The Core Packages                            <===
+An Introduction to Programming in Go 
+Go Resources 
+https://www.golang-book.com/books/intro/13
+
