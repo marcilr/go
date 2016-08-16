@@ -32,6 +32,9 @@ integer-types.txt
   int8 , int16 , int32 and int64.
   gobook.0.pdf, p. 25-26
 
+list-installed-packages.txt
+  List installed packages
+
 syntax.txt
   Syntax
 
