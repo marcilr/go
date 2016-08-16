@@ -29,3 +29,7 @@ Testing
 An Introduction to Programming in Go 
 Go Resources
 https://www.golang-book.com/books/intro/12
+
+Testing in Go by example: Part 1
+How to use the built-in 'testing' package.
+https://smartystreets.com/blog/2015/02/go-testing-part-1-vanillla
