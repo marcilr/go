@@ -21,13 +21,24 @@ Go by Example: Reading Files
 ioutil.ReadFile()
 https://gobyexample.com/reading-files
 
+How to read a file starting from a specific line number using Scanner?
+http://stackoverflow.com/questions/34654514/how-to-read-a-file-starting-from-a-specific-line-number-using-scanner
+
 How to read/write from/to file?
 Great page with examples
 http://stackoverflow.com/questions/1821811/how-to-read-write-from-to-file
 
+Package bufio
+Has bufio.NewScanner() example.
+https://golang.org/pkg/bufio/#Scanner
+
 reading file line by line in go
 Uses bufio.NewScanner(file)
 http://stackoverflow.com/questions/8757389/reading-file-line-by-line-in-go
+
+Skip comment lines
+StefanSchroeder/Golang-Regex-Tutorial
+https://github.com/StefanSchroeder/Golang-Regex-Tutorial/blob/master/01-chapter1.markdown
 
 What is the difference between print and puts?
 puts adds a newline to the end of the output. print does not.
