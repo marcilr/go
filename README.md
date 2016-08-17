@@ -8,8 +8,9 @@ Go MySQL Driver is a lightweight and fast MySQL driver for Go's
 http://godoc.org/github.com/go-sql-driver/mysql  
 --github.com/Go-SQL-Driver/MySQL/  
 
+
 GitHub
-------
+======
 git-dev-lang-go-mysql-go-sql-driver
 
 
