@@ -30,7 +30,7 @@ SQL database drivers
 go-wiki
 https://github.com/golang/go/wiki/SQLDrivers
 
-What's the recommended way to connect to MySQL from Go?
+What's the recommended way to connect to MySQL from Go? <===
 o MyMySQL
 o Go-MySQL-Driver
 http://stackoverflow.com/questions/11353679/whats-the-recommended-way-to-connect-to-mysql-from-go
