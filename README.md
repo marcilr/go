@@ -16,14 +16,14 @@ git-dev-lang-go-mysql-go-sql-driver
 
 Filelist  
 ========  
-* dsn.txt  
+* [dsn.txt](https://github.com/marcilr/git-dev-lang-go-mysql-go-sql-driver/blob/master/dsn.txt)  
 DSN (Data Source Name)  
 https://github.com/go-sql-driver/mysql#dsn-data-source-name  
 
-* go-sql-driver.txt  
+* [go-sql-driver.txt](https://github.com/marcilr/git-dev-lang-go-mysql-go-sql-driver/blob/master/go-sql-driver.txt)  
 Go MySQL Driver  
 
-* links.txt  
+* [links.txt](https://github.com/marcilr/git-dev-lang-go-mysql-go-sql-driver/blob/master/links.txt)
 Go MySQL Driver related links  
 
 
