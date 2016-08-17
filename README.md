@@ -16,11 +16,15 @@ git-dev-lang-go-mysql-go-sql-driver
 
 Filelist  
 ========  
-go-sql-driver.txt  
-&nbsp;&nbsp;&nbsp;&nbsp;Go MySQL Driver  
+* dsn.txt  
+DSN (Data Source Name)  
+https://github.com/go-sql-driver/mysql#dsn-data-source-name  
 
-links.txt  
-&nbsp;&nbsp;&nbsp;&nbsp;Go MySQL Driver related links  
+* go-sql-driver.txt  
+Go MySQL Driver  
+
+* links.txt  
+Go MySQL Driver related links  
 
 
 
