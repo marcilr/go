@@ -12,5 +12,11 @@ GitHub
 git-dev-lang-go-tools
 
 
+Filelist
+========
+* tools.txt
+  Tools for go
+
+
 Links
 =====
