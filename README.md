@@ -14,9 +14,8 @@ git-dev-lang-go-tools
 
 Filelist
 ========
+* links.txt
+  Tools for go related links
+
 * tools.txt
   Tools for go
-
-
-Links
-=====
