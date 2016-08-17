@@ -13,6 +13,6 @@ github:  git-dev-lang-go-mysql-go-sql-driver
 
 Links  
 =====  
-go MySQL Driver  
+Go MySQL Driver  
 import _ "github.com/go-sql-driver/mysql"  
 https://github.com/Go-SQL-Driver/MySQL/  
