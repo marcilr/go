@@ -27,7 +27,7 @@ import _ "github.com/go-sql-driver/mysql"
 http://godoc.org/github.com/go-sql-driver/mysql
 https://github.com/Go-SQL-Driver/MySQL/ 
 
-How to connect to mysql with go?
+How to connect to mysql with go?   <===
 Show use of go-sql-driver
 o dsn := DB_USER + ":" + DB_PASS + "@" + DB_HOST + "/" + \
   DB_NAME + "?charset=utf8"
