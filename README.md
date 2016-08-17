@@ -23,7 +23,7 @@ https://github.com/go-sql-driver/mysql#dsn-data-source-name
 * [go-sql-driver.txt](https://github.com/marcilr/git-dev-lang-go-mysql-go-sql-driver/blob/master/go-sql-driver.txt)  
 Go MySQL Driver  
 
-* [links.txt](https://github.com/marcilr/git-dev-lang-go-mysql-go-sql-driver/blob/master/links.txt)
+* [links.txt](https://github.com/marcilr/git-dev-lang-go-mysql-go-sql-driver/blob/master/links.txt)  
 Go MySQL Driver related links  
 
 
