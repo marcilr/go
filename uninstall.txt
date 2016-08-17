@@ -1,0 +1,26 @@
+uninstall.txt
+Created Wed Aug 17 15:55:51 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+To uninstall a package search and remove from ${GOPATH}.
+i.e. Remove from ~/gospace on covellite.
+
+
+Example
+=======
+covellite:~/gospace$ find . | grep goimports
+./src/golang.org/x/tools/cmd/goimports
+./src/golang.org/x/tools/cmd/goimports/goimports_gc.go
+./src/golang.org/x/tools/cmd/goimports/goimports.go
+./src/golang.org/x/tools/cmd/goimports/goimports_not_gc.go
+./src/golang.org/x/tools/cmd/goimports/doc.go
+./bin/goimports
+covellite:~/gospace$
+
+covellite:~/gospace$ cd ./src/golang.org/x/tools/cmd/
+covellite:~/gospace/src/golang.org/x/tools/cmd$ rm -rf goimports/
+covellite:~/gospace/src/golang.org/x/tools/cmd$ cd ~/gospace/bin
+covellite:~/gospace/bin$ rm goimports
+
+That removed goimports
