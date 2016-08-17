@@ -8,6 +8,10 @@ Go MySQL Driver related links
 
 Links
 =====
+Examples
+go-sql-driver/mysql
+https://github.com/go-sql-driver/mysql/wiki/Examples
+
 Go MySQL Driver  
 import _ "github.com/go-sql-driver/mysql"
 https://github.com/Go-SQL-Driver/MySQL/
@@ -22,6 +26,10 @@ Go MySQL Driver is a lightweight and fast MySQL driver for Go's (golang)
 import _ "github.com/go-sql-driver/mysql"
 http://godoc.org/github.com/go-sql-driver/mysql
 https://github.com/Go-SQL-Driver/MySQL/ 
+
+How to connect to mysql with go?
+Show use of go-sql-driver
+http://stackoverflow.com/questions/15698479/how-to-connect-to-mysql-with-go
 
 MySQL performance in go-nuts mailing list
 https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/vYnSS_ABr4M
