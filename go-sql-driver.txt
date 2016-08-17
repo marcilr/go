@@ -6,6 +6,42 @@ Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 Go MySQL Driver
 
 
+Usage
+=====
+$ go doc github.com/go-sql-driver/mysql
+package mysql // import "github.com/go-sql-driver/mysql"
+
+Package mysql provides a MySQL driver for Go's database/sql package
+
+The driver should be used via the database/sql package:
+
+    import "database/sql"
+    import _ "github.com/go-sql-driver/mysql"
+
+    db, err := sql.Open("mysql", "user:password@/dbname")
+
+See https://github.com/go-sql-driver/mysql#usage for details
+
+var ErrInvalidConn = errors.New("invalid connection") ...
+func DeregisterLocalFile(filePath string)
+func DeregisterReaderHandler(name string)
+func DeregisterTLSConfig(key string)
+func RegisterDial(net string, dial DialFunc)
+func RegisterLocalFile(filePath string)
+func RegisterReaderHandler(name string, handler func() io.Reader)
+func RegisterTLSConfig(key string, config *tls.Config) error
+func SetLogger(logger Logger) error
+func ParseDSN(dsn string) (cfg *Config, err error)
+type Config struct { ... }
+type DialFunc func(addr string) (net.Conn, error)
+type Logger interface { ... }
+type MySQLDriver struct { ... }
+type MySQLError struct { ... }
+type MySQLWarning struct { ... }
+type MySQLWarnings []MySQLWarning
+type NullTime struct { ... }
+
+
 Links
 =====
 Go MySQL Driver  
