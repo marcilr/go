@@ -1,0 +1,16 @@
+links.txt
+Created Wed Aug 17 14:16:07 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Tools for go related links
+
+
+Links
+=====
+Using Sublime Text for Go Development
+go get -u golang.org/x/tools/cmd/goimports
+go get -u golang.org/x/tools/cmd/vet
+go get -u golang.org/x/tools/cmd/oracle
+go get -u golang.org/x/tools/cmd/godoc
+https://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development/
