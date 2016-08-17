@@ -8,6 +8,9 @@ Filelist
 00INSTALL/
   Installation of go on debian debian 8.5 amd64
 
+commands.txt
+  Commads for go
+
 golang_quickstart.txt
   golang quickstart
   by Whithame Reeve Whitham Reeve <wreeve@gci.com>
