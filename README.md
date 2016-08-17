@@ -1,6 +1,6 @@
 README.md  
 Created Wed Aug 17 08:05:14 AKDT 2016  
-Copyright (C) 2016 by Raymond E. Marcil &gt;marcilr@gmail.com&lt;  
+Copyright (C) 2016 by Raymond E. Marcil &lt;marcilr@gmail.com&gt;  
 
 
 Go MySQL Driver is a lightweight and fast MySQL driver for Go's
