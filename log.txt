@@ -16,8 +16,21 @@ The Panic functions call panic after writing the log message.
 --golang.org/pkg/log/
 
 
+Log targets
+===========
+For standard error (the default):
+  log.SetOutput(os.Stderr)
+
+For standard output:
+  log.SetOutput(os.Stdout)
+--stackoverflow.com/questions/30697694/how-to-set-golangs-log-output-back-to-console
+
+
 Links
 =====
+How to set Golang's log output back to console?
+http://stackoverflow.com/questions/30697694/how-to-set-golangs-log-output-back-to-console
+
 Package log
 import "log"
 The Go Programming Language
