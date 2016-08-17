@@ -29,6 +29,9 @@ https://github.com/Go-SQL-Driver/MySQL/
 
 How to connect to mysql with go?
 Show use of go-sql-driver
+o dsn := DB_USER + ":" + DB_PASS + "@" + DB_HOST + "/" + \
+  DB_NAME + "?charset=utf8"
+o func OpenDB() *sql.DB {
 http://stackoverflow.com/questions/15698479/how-to-connect-to-mysql-with-go
 
 MySQL performance in go-nuts mailing list
