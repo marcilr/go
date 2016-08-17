@@ -33,3 +33,20 @@ https://www.golang-book.com/books/intro/12
 Testing in Go by example: Part 1
 How to use the built-in 'testing' package.
 https://smartystreets.com/blog/2015/02/go-testing-part-1-vanillla
+
+Testing in Go by example: Part 2
+Tests that aren't easy to execute will be ignored.
+https://smartystreets.com/blog/2015/02/go-testing-part-2-running-tests
+
+Testing in Go by example: Part 3
+Conveying behavior with our approach to BDD in Go
+https://smartystreets.com/blog/2015/05/go-testing-part-3-convey-behavior
+
+Testing in Go by example: Part 4
+Our approach to assertions in Go code
+https://smartystreets.com/blog/2015/08/go-testing-part-4-standalone-assertions
+
+Testing in Go by example: Part 5
+An elegant and effective strategy for dealing with time in unit tests
+https://smartystreets.com/blog/2015/09/go-testing-part-5-testing-with-time
+
