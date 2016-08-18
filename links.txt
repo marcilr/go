@@ -1,0 +1,22 @@
+links.txt
+Created Thu Aug 18 07:58:41 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+sql related links
+
+
+Links
+=====
+Fetching Data from the Database
+Some good example code here
+http://go-database-sql.org/retrieving.html
+
+How to connect to mysql with go?
+Solid connection code here
+http://stackoverflow.com/questions/15698479/how-to-connect-to-mysql-with-go
+
+Package sql  
+import "database/sql"  
+Package sql provides a generic interface around SQL (or SQL-like) databases.  
+https://golang.org/pkg/database/sql/  
