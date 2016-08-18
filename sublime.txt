@@ -37,6 +37,12 @@ You'll love the slick user interface, extraordinary features and amazing
 performance.
 https://www.sublimetext.com/
 
+SUBLIME TEXT 3 Documentation
+http://www.sublimetext.com/docs/3/
+
+Sublime Text Unofficial Documentation
+http://docs.sublimetext.info/en/latest/index.html
+
 Using Sublime Text for Go Development
 Mark Wolfe's Blog
 https://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development/
