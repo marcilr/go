@@ -8,6 +8,9 @@ sql related links
 
 Links
 =====
+database/sql introduction
+http://go-database-sql.org/
+
 Fetching Data from the Database
 Some good example code here
 http://go-database-sql.org/retrieving.html
