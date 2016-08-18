@@ -22,7 +22,7 @@ Package database/sql
 
 Filelist
 ========
-[sql.txt](https://github.com/marcilr/git-dev-lang-go-packages-sql/blob/master/sql.txt)
+[sql.txt](https://github.com/marcilr/git-dev-lang-go-packages-sql/blob/master/sql.txt)  
   Package database/sql  
   import "database/sql"  
 
