@@ -7,6 +7,10 @@ MySQL for go related links
 
 Links
 =====
+Go database/sql tutorial
+Nice document on database/sql here
+http://go-database-sql.org/
+
 Go-MySQL-Driver
 A MySQL-Driver for Go's database/sql package
 go-sql-driver/mysql
