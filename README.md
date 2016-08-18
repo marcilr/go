@@ -13,3 +13,12 @@ Filelist
 ========
 books.txt
   Go books
+
+sublime.txt
+  Sublime Text
+  The Sublime Text editor with the Gosublime plugin is great for
+  go development.
+  Fine color syntax highlighting and build environment.
+  https://github.com/DisposaBoy/GoSublime
+  https://www.sublimetext.com/
+
