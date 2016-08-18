@@ -1,0 +1,38 @@
+sublime.txt
+Created Thu Aug 18 08:03:37 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Sublime Text
+
+
+The Sublime Text editor with the Gosublime plugin is great for go development.
+Fine color syntax highlighting and build environment.
+
+
+Links
+=====
+DisposaBoy/GoSublime
+A Golang plugin collection for SublimeText **3**, providing code completion
+and other IDE-like features.
+https://github.com/DisposaBoy/GoSublime
+
+GoSublime + GoImports = :)
+Had enough? -- build failed: imported and not used: 'fmt' --
+http://michaelwhatcott.com/gosublime-goimports/
+
+GoSublime vs Official Sublime Text Go package?
+https://www.reddit.com/r/golang/comments/3st2k0/gosublime_vs_official_sublime_text_go_package/
+
+Newest 'gosublime' Questions - Stack Overflow
+https://www.google.com/#q=gosublime
+
+Sublime Text: The text editor you'll fall in love with
+Sublime Text is a sophisticated text editor for code, markup and prose.
+You'll love the slick user interface, extraordinary features and amazing
+performance.
+https://www.sublimetext.com/
+
+Using Sublime Text for Go Development
+Mark Wolfe's Blog
+https://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development/
