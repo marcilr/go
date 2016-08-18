@@ -19,6 +19,11 @@ Fetching Data from the Database
 Some good example code here
 http://go-database-sql.org/retrieving.html
 
+How to call the Scan variadic function in Golang using reflection? <===
+Good details on rows.Columns and rows.Scan() regarding
+fetching and interpreting values.
+http://stackoverflow.com/questions/17845619/how-to-call-the-scan-variadic-function-in-golang-using-reflection
+
 How to connect to mysql with go?
 Solid connection code here
 http://stackoverflow.com/questions/15698479/how-to-connect-to-mysql-with-go
