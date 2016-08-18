@@ -10,6 +10,7 @@ Links
 =====
 Examples
 go-sql-driver/mysql
+Has A word on sql.Open, looks good.
 https://github.com/go-sql-driver/mysql/wiki/Examples
 
 Go MySQL Driver  
