@@ -38,6 +38,13 @@ http://stackoverflow.com/questions/15698479/how-to-connect-to-mysql-with-go
 MySQL performance in go-nuts mailing list
 https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/vYnSS_ABr4M
 
+package mysql
+import "github.com/go-sql-driver/mysql"
+Package mysql provides a MySQL driver for Go's database/sql package
+The driver should be used via the database/sql package:
+mysql: github.com/go-sql-driver/mysql
+https://godoc.org/github.com/go-sql-driver/mysql#Config.FormatDSN
+
 What's the recommended way to connect to MySQL from Go? <===
 o MyMySQL
 o Go-MySQL-Driver
