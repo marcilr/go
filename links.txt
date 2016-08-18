@@ -23,7 +23,26 @@ How to connect to mysql with go?
 Solid connection code here
 http://stackoverflow.com/questions/15698479/how-to-connect-to-mysql-with-go
 
+MyMySQL
+http://github.com/ziutek/mymysql
+
+MySQL performance in go-nuts mailing list
+https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/vYnSS_ABr4M
+
 Package sql  
 import "database/sql"  
 Package sql provides a generic interface around SQL (or SQL-like) databases.  
 https://golang.org/pkg/database/sql/  
+
+Retrieving Result Sets
+http://go-database-sql.org/retrieving.html
+
+SQL database drivers
+go-wiki
+https://github.com/golang/go/wiki/SQLDrivers
+
+What's the recommended way to connect to MySQL from Go? <===
+o MyMySQL
+o Go-MySQL-Driver
+http://stackoverflow.com/questions/11353679/whats-the-recommended-way-to-connect-to-mysql-from-go
+
