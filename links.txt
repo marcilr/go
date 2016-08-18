@@ -11,6 +11,10 @@ Links
 database/sql introduction
 http://go-database-sql.org/
 
+Go database/sql tutorial
+Nice document on database/sql here
+http://go-database-sql.org/
+
 Fetching Data from the Database
 Some good example code here
 http://go-database-sql.org/retrieving.html
