@@ -170,6 +170,11 @@ https://groups.google.com/group/golang-nuts
 Go Wiki
 https://golang.org/wiki/Projects
 
+Go's Declaration Syntax - 7 July 2010
+The Go Blog
+The Go Programming Language
+https://blog.golang.org/gos-declaration-syntax
+
 godep                                                                  <===
 godep helps build packages reproducibly by fixing their dependencies.
 tools/godep
@@ -270,6 +275,11 @@ Setting up a Go Development Environment
 24 Mar 2013
 Brian's Waster of Time
 http://skife.org/golang/2013/03/24/go_dev_env.html
+
+Strings, bytes, runes and characters in Go - 23 October 2013
+The Go Blog
+The Go Programming Language
+https://blog.golang.org/strings
 
 The Core Packages                            <===
 An Introduction to Programming in Go 
