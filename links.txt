@@ -292,6 +292,10 @@ Things I Wish Someone Had Told Me About Golang
 11 Mar 2013 - By Karl Seguin
 http://openmymind.net/Things-I-Wish-Someone-Had-Told-Me-About-Go/
 
+Using Sublime Text for Go Development
+Mark Wolfe's Blog
+https://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development/
+
 Variables
 Go by Example: Variables
 https://gobyexample.com/variables
