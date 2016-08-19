@@ -40,6 +40,8 @@ and execute query against table.
   The code below is from this page - rock on.  
   https://github.com/go-sql-driver/mysql/wiki/Examples  
 
+[example2/](https://github.com/marcilr/git-dev-lang-go-packages-sql-go-sql-driver-example2)  
+
 Go MySQL Driver  
 import _ "github.com/go-sql-driver/mysql"  
 https://github.com/Go-SQL-Driver/MySQL/  
