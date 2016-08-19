@@ -88,9 +88,7 @@ import (
 func Main() {
 
     db, err := sql.Open("mysql",
-        "root:8GigotoS*@tcp(192.168.56.55:3306)/evenge")
-    //db, err := sql.Open("mysql",
-    //   "user:password@tcp(127.0.0.1:3306)/hello")
+       "user:password@tcp(127.0.0.1:3306)/hello")
     if err != nil {
         //log.Fatal(err)
         // Just for example purpose. You should use proper error handling instead of panic
@@ -98,8 +96,7 @@ func Main() {
     }
     defer db.Close()
 
-    var sql = "select count(*) from events"
-    //var sql = "select * from table"
+    var sql = "select * from table"
     rows, err := db.Query(sql)
     columns, err := rows.Columns()
     colNum := len(columns)
