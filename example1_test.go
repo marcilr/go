@@ -16,7 +16,7 @@ func TestFoo(t *testing.T) {
 } // End TestFoo()
 
 /*
- * TesMain()
+ * TestMain()
  */
 func TestMain(t *testing.T) {
     Main()
