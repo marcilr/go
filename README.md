@@ -9,7 +9,7 @@ Filelist
   Example of using Go MySQL Driver to create database handle
   and execute query against table.  
 
-  References (initial source for code):  
+  * References (initial source for code):  
     RawBytes  
     Examples  
     go-sql-driver/mysql  
