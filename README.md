@@ -9,11 +9,16 @@ Filelist
    Example of using Go MySQL Driver to create  database handle
    and execute query against table.
 
-example1.go  
-  Example connection and query to mysql database  
+example1.go
+  Example of using Go MySQL Driver to create database handle
+  and execute query against table.
 
-  Go database/sql tutorial  
-  http://go-database-sql.org/index.html  
+  References (initial source for code):
+    RawBytes
+    Examples
+    go-sql-driver/mysql
+    The code below is from this page - rock on.
+    https://github.com/go-sql-driver/mysql/wiki/Examples
 
 exampl1_test.go  
   Testing package for tutorial.go  
