@@ -3,7 +3,7 @@
    Created Thu Aug 18 10:25:16 AKDT 2016
    by Raymond E. Marcil <marcilr@gmail.com>
 
-   Testing package for exampl1.go
+   Testing package for example1.go
 */
 package main
 
