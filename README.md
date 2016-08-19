@@ -1,6 +1,6 @@
 README.md  
 Created Thu Aug 18 10:21:03 AKDT 2016  
-by Raymond E. Marcil <marcilr@gmail.com>  
+by Raymond E. Marcil &lt;marcilr@gmail.com&gt;
 
 
 Filelist  
