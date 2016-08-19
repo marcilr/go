@@ -41,6 +41,8 @@ and execute query against table.
   https://github.com/go-sql-driver/mysql/wiki/Examples  
 
 [example2/](https://github.com/marcilr/git-dev-lang-go-packages-sql-go-sql-driver-example2)  
+Example of using Go MySQL Driver to create database handle
+and execute query against table.
 
 Go MySQL Driver  
 import _ "github.com/go-sql-driver/mysql"  
