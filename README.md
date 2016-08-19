@@ -19,7 +19,7 @@ Filelist
 * [example1_test.go](https://github.com/marcilr/git-dev-lang-go-packages-sql-go-sql-driver-example1/blob/master/example1_test.go)  
   Testing package for tutorial.go  
 
-links.txt  
+* [links.txt](https://github.com/marcilr/git-dev-lang-go-packages-sql-go-sql-driver-example1/blob/master/links.txt)  
   Example 1 related links  
 
 
