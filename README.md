@@ -23,6 +23,7 @@ Filelist
   Example 1 related links  
 
 
-GitHub  
-======  
-git-dev-lang-go-packages-sql-go-sql-driver-example1  
+Links  
+=====
+Example 1  
+https://github.com/marcilr/git-dev-lang-go-packages-sql-go-sql-driver-example1
