@@ -20,17 +20,6 @@ Filelist
 DSN (Data Source Name)  
 https://github.com/go-sql-driver/mysql#dsn-data-source-name  
 
-* [example1](https://github.com/marcilr/git-dev-lang-go-packages-sql-go-sql-driver-example1)  
-  Example of using Go MySQL Driver to create database handle
-  and execute query against table.  
-
-  * References (initial source for code):  
-    RawBytes  
-    Examples  
-    go-sql-driver/mysql  
-    The code below is from this page - rock on.  
-    https://github.com/go-sql-driver/mysql/wiki/Examples 
-
 * [go-sql-driver.txt](https://github.com/marcilr/git-dev-lang-go-mysql-go-sql-driver/blob/master/go-sql-driver.txt)  
 Go MySQL Driver  
 
@@ -41,6 +30,16 @@ Go MySQL Driver related links
 
 Links  
 =====  
+[example1/](https://github.com/marcilr/git-dev-lang-go-packages-sql-go-sql-driver-example1)
+Example of using Go MySQL Driver to create database handle
+and execute query against table.
+* References (initial source for code):
+  RawBytes
+  Examples
+  go-sql-driver/mysql
+  The code below is from this page - rock on.
+  https://github.com/go-sql-driver/mysql/wiki/Examples
+
 Go MySQL Driver  
 import _ "github.com/go-sql-driver/mysql"  
 https://github.com/Go-SQL-Driver/MySQL/  
