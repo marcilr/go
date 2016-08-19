@@ -7,7 +7,7 @@ Filelist
 ========  
  example1.go
    Example of using Go MySQL Driver to create  database handle
-   and execute query against specified table.
+   and execute query against table.
 
 example1.go  
   Example connection and query to mysql database  
