@@ -31,7 +31,7 @@ Go MySQL Driver related links
 Links  
 =====  
 [example1/](https://github.com/marcilr/git-dev-lang-go-packages-sql-go-sql-driver-example1)  
-Example of using Go MySQL Driver to create database handle  
+Example of using Go MySQL Driver to create database handle
 and execute query against table.  
 * References (initial source for code):  
   RawBytes  
@@ -43,4 +43,3 @@ and execute query against table.
 Go MySQL Driver  
 import _ "github.com/go-sql-driver/mysql"  
 https://github.com/Go-SQL-Driver/MySQL/  
-
