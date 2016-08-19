@@ -5,6 +5,10 @@ by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist  
 ========  
+ example1.go
+   Example of using Go MySQL Driver to create  database handle
+   and execute query against specified table.
+
 example1.go  
   Example connection and query to mysql database  
 
