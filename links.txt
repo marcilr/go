@@ -21,6 +21,9 @@ Go by Example: Reading Files
 ioutil.ReadFile()
 https://gobyexample.com/reading-files
 
+Go Walkthrough: io package       <=== TODO: Move to io package directory
+https://medium.com/@benbjohnson/go-walkthrough-io-package-8ac5e95a9fbd#.lb69kor84
+
 How to read a file starting from a specific line number using Scanner?
 http://stackoverflow.com/questions/34654514/how-to-read-a-file-starting-from-a-specific-line-number-using-scanner
 
