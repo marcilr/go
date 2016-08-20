@@ -42,6 +42,19 @@ https://golang.org/pkg/database/sql/
 Retrieving Result Sets
 http://go-database-sql.org/retrieving.html
 
+Sharing a globally defined db conn with multiple packages in Golang
+PS: I wrote an article on how to pass a struct with your handler
+or package dependencies: 
+  http://elithrar.github.io/article/http-handler-error-handling-revisited/
+(an update on an older article) that might help you see it from another
+angle.  Also see 
+  http://www.jerf.org/iri/post/2929
+and
+  https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091#.c4y0nkupz
+which are additional takes on these approaches. 
+--elithrar Jul 4 '15 at 10:32
+http://stackoverflow.com/questions/31218008/sharing-a-globally-defined-db-conn-with-multiple-packages-in-golang
+
 SQL database drivers
 go-wiki
 https://github.com/golang/go/wiki/SQLDrivers
