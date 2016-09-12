@@ -1,0 +1,107 @@
+testing.txt
+Created Fri Aug 12 14:20:07 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Package testing
+import "testing"
+
+
+Package testing provides support for automated testing of Go packages.  It is
+intended to be used in concert with the "go test" command, which automates
+execution of any function of the form
+
+    func TestXxx(*testing.T)
+
+where Xxx can be any alphanumeric string (but the first letter must not be in
+[a-z]) and serves to identify the test routine.
+
+Within these functions, use the Error, Fail or related methods to signal
+failure.
+
+To write a new test suite, create a file whose name ends _test.go that
+contains the TestXxx functions as described here. Put the file in the same
+package as the one being tested.  The file will be excluded from regular
+package builds but will be included when the "go test" command is run.
+For more detail, run "go help test" and "go help testflag".
+--golang.org/pkg/testing/
+
+
+Installed on GCI covellite workstation:
+  $ go list ... | grep testing
+  testing
+  testing/iotest
+  testing/quick
+  $
+
+Still get error trying to run tests on covellite:
+  $ go test
+  can't load package: package .: found packages main (main.go)
+  and nvp (nvp.go) in /home/marcilr/git/gci/projects/generator-alarms/src
+  $
+
+Tried switching package to main in both nvp.go and nvp_test.go.
+Still get very similar error:
+ 
+  $ go test
+  can't load package: package nvp: found packages main (nvp.go) and
+  testing (testing.go) in /home/marcilr/gospace/src/nvp
+  $
+
+
+Test results
+============
+Grokked from 'go do testing':
+  Within these functions, use the Error, Fail or related methods to signal
+  failure.
+
+
+Examples
+========
+/*
+ * TestRead()
+ * Test reading ini file.
+ */
+func TestRead(t *testing.T) {
+
+    confFile := "../../conf/mysql.ini"
+    nvp := Read(confFile)
+
+    // Return error if hashmap is nil
+    if nvp == nil{
+        t.Error("TestRead() hashap nvp == nil")
+    }
+    
+    // Loop of hashmap and print name-value pairs
+    fmt.Println("TestRead() Hashmap of name-value pair read by Package nvp:")
+    for key, value := range nvp {
+        fmt.Println("TestRead() Key:", key, "Value:", value)
+    }
+
+}   // End TestRead()
+
+
+Links
+=====
+[go-nuts] Testing a package that has a main function in it
+grokbase
+Code from this pages tested correctly with "go test"!
+http://grokbase.com/t/gg/golang-nuts/138w20s8yd/go-nuts-testing-a-package-that-has-a-main-function-in-it
+
+Golang Testing > cant load package
+This page shows the error I am getting:
+> go test
+> can't load package: package .: found packages main (calculator.go) \
+and calculator (calculator_test.go) in  
+http://qaoverflow.com/question/golang-testing-cant-load-package/
+
+Package testing
+import "testing"
+The Go Programming Language
+Package testing provides support for automated testing of Go packages.  It is
+intended to be used in concert with the "go test" command, which automates
+execution of any function of the form
+    func TestXxx(*testing.T)
+where Xxx can be any alphanumeric string (but the first letter must not be in
+[a-z]) and serves to identify the test routine.
+https://golang.org/pkg/testing/
