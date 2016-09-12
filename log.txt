@@ -1,0 +1,62 @@
+log.txt
+Created Mon Aug 15 14:44:06 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Package log
+
+
+Package log implements a simple logging package.  It defines a type, Logger,
+with methods for formatting output.  It also has a predefined 'standard'
+Logger accessible through helper functions Print[f|ln], Fatal[f|ln], and
+Panic[f|ln], which are easier to use than creating a Logger manually.  That
+logger writes to standard error and prints the date and time of each logged
+message.  The Fatal functions call os.Exit(1) after writing the log message.
+The Panic functions call panic after writing the log message.
+--golang.org/pkg/log/
+
+const Ldate = 1 << iota ...
+func Fatal(v ...interface{})
+func Fatalf(format string, v ...interface{})
+func Fatalln(v ...interface{})
+func Flags() int
+func Output(calldepth int, s string) error
+func Panic(v ...interface{})
+func Panicf(format string, v ...interface{})
+func Panicln(v ...interface{})
+func Prefix() string
+func Print(v ...interface{})
+func Printf(format string, v ...interface{})
+func Println(v ...interface{})
+func SetFlags(flag int)
+func SetOutput(w io.Writer)
+func SetPrefix(prefix string)
+func New(out io.Writer, prefix string, flag int) *Logger
+type Logger struct { ... }
+--go doc log
+
+
+Log targets
+===========
+For standard error (the default):
+  log.SetOutput(os.Stderr)
+
+For standard output:
+  log.SetOutput(os.Stdout)
+--stackoverflow.com/questions/30697694/how-to-set-golangs-log-output-back-to-console
+
+
+Links
+=====
+How to set Golang's log output back to console?
+http://stackoverflow.com/questions/30697694/how-to-set-golangs-log-output-back-to-console
+
+Package log
+import "log"
+The Go Programming Language
+https://golang.org/pkg/log/
+
+Using The Log Package In Go
+Nov 5, 2013
+https://www.goinggo.net/2013/11/using-log-package-in-go.html
+
