@@ -1,0 +1,45 @@
+mysql.txt
+Created Fri Jul 29 10:35:52 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+MySQL access from go
+
+
+Two fast and reliable drivers are available for MySQL :
+
+o MyMySQL
+  http://github.com/ziutek/mymysql
+
+o Go-MySQL-Driver
+  https://github.com/Go-SQL-Driver/MySQL/
+
+I've used both of them in production, programs are running for months with
+connection numbers in the millions without failure.
+--stackoverflow.com/questions/11353679/
+
+
+Installation
+============
+Simple install the package to your $GOPATH with the go tool from shell:
+
+  $ go get github.com/go-sql-driver/mysql
+
+Make sure Git is installed on your machine and in your system's PATH.
+--github.com/Go-SQL-Driver/MySQL/#installation
+
+
+Links
+=====
+Go-MySQL-Driver
+A MySQL-Driver for Go's database/sql package
+go-sql-driver/mysql
+Go MySQL Driver is a lightweight and fast MySQL driver for Go's (golang)
+database/sql package http://godoc.org/github.com/go-sql-driver/mysql
+https://github.com/Go-SQL-Driver/MySQL/
+
+MyMySQL
+http://github.com/ziutek/mymysql
+
+What's the recommended way to connect to MySQL from Go?
+http://stackoverflow.com/questions/11353679/whats-the-recommended-way-to-connect-to-mysql-from-go

@@ -1,0 +1,40 @@
+links.txt
+Created Fri Jul 29 10:37:12 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+MySQL for go related links
+
+
+Links
+=====
+Go database/sql tutorial
+Nice document on database/sql here
+http://go-database-sql.org/
+
+Go-MySQL-Driver
+A MySQL-Driver for Go's database/sql package
+go-sql-driver/mysql
+Go MySQL Driver is a lightweight and fast MySQL driver for Go's (golang)
+database/sql package http://godoc.org/github.com/go-sql-driver/mysql
+https://github.com/Go-SQL-Driver/MySQL/
+
+Go MySQL Driver wiki
+https://github.com/go-sql-driver/mysql/wiki/Examples
+
+MyMySQL
+http://github.com/ziutek/mymysql
+
+MySQL performance in go-nuts mailing list
+https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/vYnSS_ABr4M
+
+Retrieving Result Sets
+http://go-database-sql.org/retrieving.html
+
+SQL database drivers
+go-wiki
+https://github.com/golang/go/wiki/SQLDrivers
+
+What's the recommended way to connect to MySQL from Go? <===
+o MyMySQL
+o Go-MySQL-Driver
+http://stackoverflow.com/questions/11353679/whats-the-recommended-way-to-connect-to-mysql-from-go
