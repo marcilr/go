@@ -1,0 +1,18 @@
+links.txt
+Created Mon Aug 15 09:57:01 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Package bufio related links
+
+
+Links
+=====
+Package bufio
+import "bufio"
+The Go Programming Language
+Package bufio implements buffered I/O.  It wraps an io.Reader or io.Writer
+object, creating another object (Reader or Writer) that also implements the
+interface but provides buffering and some help for textual I/O.
+https://golang.org/pkg/bufio/
+
