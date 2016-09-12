@@ -1,0 +1,19 @@
+README
+Created Mon Aug  1 13:46:43 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+mysql.txt
+  MySQL access from go
+
+usage.txt
+  Usage
+  https://github.com/Go-SQL-Driver/MySQL/#usage
+
+whats-the-recommended-way-to-connect-to-mysql-from-go.txt
+  What's the recommended way to connect to MySQL from Go?
+  asked Jul 5 '12 at 23:00
+  GiantSquid http://stackoverflow.com/users/78640/giantsquid
+  http://stackoverflow.com/questions/11353679/whats-the-recommended-way-to-connect-to-mysql-from-go
