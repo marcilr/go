@@ -1,0 +1,22 @@
+links.txt
+Created Fri Aug 12 10:33:19 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Package strings related links
+
+
+Links
+=====
+How to trim leading and trailing white spaces of a string in golang
+import "strings"
+t := strings.TrimSpace(s)
+http://stackoverflow.com/questions/22688010/how-to-trim-leading-and-trailing-white-spaces-of-a-string-in-golang
+
+Package strings
+import "strings"
+Package strings implements simple functions to manipulate UTF-8 encoded strings.
+https://golang.org/pkg/strings/
+
+What is the best way to convert byte array to string?
+http://stackoverflow.com/questions/14230145/what-is-the-best-way-to-convert-byte-array-to-string
