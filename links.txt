@@ -1,0 +1,23 @@
+links.txt
+Created Fri Jul 29 09:08:06 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Go installation related links
+
+
+Links
+=====
+Downloads
+The Go Programming Language
+https://golang.org/dl/
+
+Getting Started
+tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
+https://golang.org/doc/install
+
+Installing Go from source
+https://golang.org/doc/install/source
+
+Installation instructions
+https://golang.org/doc/install
