@@ -1,0 +1,112 @@
+links.txt
+Created Fri Aug 19 09:25:00 AKDT 2016
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Example 2 related links
+
+
+Links
+=====
+Accessing the Database
+This page has the initial sql.Open() code that I used for
+my first go access to mysql database.
+
+Now that you've loaded the driver package, you're ready to create a database
+object, a sql.DB.
+
+To create a sql.DB, you use sql.Open(). This returns a *sql.DB:
+
+func main() {
+    db, err := sql.Open("mysql",
+        "user:password@tcp(127.0.0.1:3306)/hello")
+    if err != nil {
+        log.Fatal(err)
+}
+    defer db.Close()
+}
+http://go-database-sql.org/accessing.html
+
+Examples
+go-sql-driver/mysql
+This page has the best example of creating a database
+and handle and querying mysql.  Used and updated here.
+https://github.com/go-sql-driver/mysql/wiki/Examples
+
+Fetching Data from the Database
+Retrieving Result Sets
+http://go-database-sql.org/retrieving.html
+
+Go database/sql tutorial
+Great details here
+http://go-database-sql.org/index.html
+
+How to call the Scan variadic function in Golang using reflection?
+I don't think you need reflection for this - you can use
+a slice and the ... operator to pass multiple values to a
+variadic function.
+     col := rows.Columns()
+     vals := make([]interface{}, col)
+     rows.Scan(vals...)
+I may be misunderstanding what you want to do though!
+answered Jul 24 '13 at 22:16 - Nick Craig Wood
+
+
+To lucidquiet: you can also assign a interface instead of making a slice
+
+The following code works good:
+    var sql = "select * from table"
+    rows, err := db.Query(sql)
+    columns, err = rows.Columns()
+    colNum := len(columns)
+
+   var values = make([]interface{}, colNum)
+   for i, _ := range values {
+      var ii interface{}
+      values[i] = &ii
+   }
+
+   for rows.Next() {
+      err := rows.Scan(values...)
+      for i, colName := range columns {
+         var raw_value = *(values[i].(*interface{}))
+         var raw_type = reflect.TypeOf(raw_value)
+
+         fmt.Println(colName,raw_type,raw_value)
+      }
+   }
+
+answered Jun 19 '15 at 17:33 - Tom Liu
+http://stackoverflow.com/users/3266581/tom-liu
+
+   Also has use of log.Fatelf():
+      if err != nil {
+         log.Fatalf("Error on opening database connection: %v", err.Error())
+      }
+
+http://stackoverflow.com/users/164234/nick-craig-wood
+http://stackoverflow.com/questions/17845619/how-to-call-the-scan-variadic-function-in-golang-using-reflection
+
+How to share mysql connection between http goroutines?
+asked Jun 29 '13 at 2:47 - Jason
+http://stackoverflow.com/users/1034472/jason
+http://stackoverflow.com/questions/17376207/how-to-share-mysql-connection-between-http-goroutines
+
+Package reflect
+import "reflect"
+Package reflect implements run-time reflection, allowing a program to
+manipulate objects with arbitrary types.  The typical use is to take a value
+with static type interface{} and extract its dynamic type information by
+calling TypeOf, which returns a Type.
+
+A call to ValueOf returns a Value representing the run-time data.  Zero takes
+a Type and returns a Value representing a zero value for that type.
+
+See "The Laws of Reflection" for an introduction to reflection in
+Go: https://golang.org/doc/articles/laws_of_reflection.html
+https://golang.org/pkg/reflect/
+
+Package sql
+import "database/sql"
+The Go Programming Language
+https://golang.org/pkg/database/sql/
