@@ -1,0 +1,22 @@
+links.txt
+Created Mon Aug 15 15:45:18 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Sub-repositories related links
+
+
+Links
+=====
+Package crypto
+import "crypto"
+Package crypto collects common cryptographic constants.
+https://golang.org/pkg/crypto/
+
+Sub-repositories
+These packages are part of the Go Project but outside the main Go tree.  They
+are developed under looser compatibility requirements than the Go core.
+Install them with "go get".
+The Go Programming Language
+https://golang.org/pkg/
+
