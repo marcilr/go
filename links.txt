@@ -1,0 +1,16 @@
+links.txt
+Created Fri Aug 12 11:01:30 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Package crypto related links
+
+
+Links
+=====
+crypto.txt
+  Package crypto
+  import "crypto"
+  Package crypto collects common cryptographic constants.
+  https://golang.org/pkg/crypto/
+
