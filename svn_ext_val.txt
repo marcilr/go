@@ -1,0 +1,14 @@
+#
+# svn_ext_val.txt
+# Created Fri Mar 14 09:41:50 AKDT 2014
+# by Raymond E. Marcil <marcilr@gmail.com>
+#
+
+
+#
+# List of repo hierarchical directories to checkout under go/
+#
+# src/   Source code
+#
+../../go/src/src   ./src
+

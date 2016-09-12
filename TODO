@@ -1,0 +1,34 @@
+TODO
+Created Fri Aug 19 17:01:22 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+o Fri Aug 19 17:01:22 AKDT 2016 - Create interfaces directory
+Create links.txt with:
+  Interfaces in Go
+  https://medium.com/@gianbiondi/interfaces-in-go-59c3dc9c2d98#.hrb5vmjev
+
+o Fri Aug 19 17:01:22 AKDT 2016 - More links to categorize:
+Golang and why it matters
+James O'Toole
+Jan 1313 min read
+https://medium.com/@jamesotoole/golang-and-why-it-matters-1710b3af96f7#.o0pvo3qn2
+
+Why Go's structs are superior to class-based inheritance
+Ian Macalinao
+software engineer
+Jun 284 min read
+https://medium.com/@simplyianm/why-gos-structs-are-superior-to-class-based-inheritance-b661ba897c67#.eny3hdrqn
+
+Dancing with Go's Mutexes
+https://medium.com/@deckarep/dancing-with-go-s-mutexes-92407ae927bf#.42nvmlbao
+
+Why Go is a poorly designed language
+https://medium.com/@tucnak/why-go-is-a-poorly-designed-language-1cc04e5daf2#.eleoletw2
+
+OOP and Go...  Sorta
+https://medium.com/behancetech/oop-and-go-sorta-c6682359a41b#.2iz2f6k0r
+
+Very basic concurrency for beginners in Go
+https://medium.com/@matryer/very-basic-concurrency-for-beginners-in-go-663e63c6ba07#.6sd8il3lu
+

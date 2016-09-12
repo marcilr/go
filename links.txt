@@ -1,0 +1,321 @@
+links.txt
+Created Wed Feb  5 14:31:54 AKST 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Go related links
+
+Dependency hell is a colloquial term for the frustration of some software
+users who have installed software packages which have dependencies on specific
+versions of other software packages. -Wikipedia
+
+
+o Go standard library
+o Test files end in _test.go
+  https://talks.golang.org/2014/organizeio.slide#7
+o
+$GOPATH/
+    src/
+        github.com/user/repo/
+            mypkg/
+                mysrc1.go
+                mysrc2.go
+            cmd/mycmd/
+                main.go
+    bin/
+        mycmd
+https://talks.golang.org/2014/organizeio.slide#9
+
+
+Links
+=====
+50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs <===
+http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/
+
+
+A Tour of Go                 <===
+to learn the language proper
+https://tour.golang.org/
+
+About the go command
+The Go Programming Language
+https://golang.org/doc/articles/go_command.html
+
+An introduction to cross compilation with Go
+by Dave Cheney
+The acme of foolishnes
+http://dave.cheney.net/2012/09/08/an-introduction-to-cross-compilation-with-go
+
+An Introduction to Programming in Go
+by Caleb Doxsey
+https://www.golang-book.com/books/intro
+https://www.golang-book.com/public/pdf/gobook.0.pdf
+
+boolean values set to true unintentionally changing to false
+http://stackoverflow.com/questions/29270083/boolean-values-set-to-true-unintentionally-changing-to-false
+
+Byte manipulation in Ruby
+https://www.happybearsoftware.com/byte-manipulation-in-ruby
+
+Command go
+Go is a tool for managing Go source code.
+https://golang.org/cmd/go/
+
+Contributing to Open Source Git Repositories in Go  <===
+by Katrina Owen.
+https://splice.com/blog/contributing-open-source-git-repositories-go/
+
+Control structures - Go for loop, break, continue, range     <====
+GoLang Tutorials
+Wednesday, June 22, 2011
+http://golangtutorials.blogspot.com/2011/06/control-structures-go-for-loop-break.html
+
+documentation page
+for a set of in-depth articles about the Go language and its libraries and tools.
+https://golang.org/doc/#articles
+
+Effective Go
+Tips on writing clear, idiomatic Go code.
+https://golang.org/doc/effective_go.html
+
+Efficient String Concatenation in Go
+May 3, 2014
+http://herman.asia/efficient-string-concatenation-in-go
+
+Environmental variables
+Script to display all environmental variables.
+Uses strings.Split()
+https://play.golang.org/p/kfqLhpmEpw
+
+Excellent talk on Go naming
+by Andrew Gerrand, Google Inc.
+adg@golang.org
+@enneff
+https://golang.org/
+https://talks.golang.org/2014/names.slide#1
+
+Exported names
+In Go, a name is exported if it begins with a capital letter.
+https://tour.golang.org/basics/3
+
+Five suggestions for setting up a Go project
+by Dave Cheney
+The acme of foolishness
+http://dave.cheney.net/2014/12/01/five-suggestions-for-setting-up-a-go-project
+
+Frequently Asked Questions (FAQ)
+The Go Programming Language
+o How do I write a unit test?
+https://golang.org/doc/faq
+
+gb is a project based build tool for the Go programming language.
+https://getgb.io/
+
+gb, a project based build tool for the Go programming language
+Why is a project based approach, as opposed to a workspace based
+approach like $GOPATH, useful?
+http://dave.cheney.net/2015/06/09/gb-a-project-based-build-tool-for-the-go-programming-language
+
+Introducing gb, a project based build tool for the Go programming language
+http://dave.cheney.net/2015/05/12/introducing-gb
+
+Global Variables with GO
+http://stackoverflow.com/questions/5410690/global-variables-with-go
+
+go
+The Go Programming Language
+https://code.google.com/p/go/
+
+Go Cookbook
+http://golangcookbook.blogspot.com/2012/11/while-loop.html
+
+Go by Example: Arrays
+In Go, an array is a numbered sequence of elements of a specific length.
+https://gobyexample.com/arrays
+
+Go by Example: Environment Variables
+https://gobyexample.com/environment-variables
+
+Go by Example: Multiple Return Values
+https://gobyexample.com/multiple-return-values
+
+Go has a debugger - and it's awesome!
+18 Jun 2015 by Filippo Valsorda.
+https://blog.cloudflare.com/go-has-a-debugger-and-its-awesome/
+
+go home page
+http://golang.org/
+
+Go issue tracker
+report bugs
+https://golang.org/issue
+
+go list, your Swiss army knife
+http://dave.cheney.net/2014/09/14/go-list-your-swiss-army-knife
+
+Go MySQL Driver 
+go-sql-driver/mysql
+A lightweight and fast MySQL driver for Go's (golang)
+database/sql package http://godoc.org/github.com/go-sql-driver/mysql
+https://github.com/go-sql-driver/mysql
+
+Go Search
+A code search engine
+http://go-search.org/
+
+Go Nuts
+Official mailing list for discussion of the Go language
+https://groups.google.com/group/golang-nuts
+
+Go Wiki
+https://golang.org/wiki/Projects
+
+Go's Declaration Syntax - 7 July 2010
+The Go Blog
+The Go Programming Language
+https://blog.golang.org/gos-declaration-syntax
+
+godep                                                                  <===
+godep helps build packages reproducibly by fixing their dependencies.
+tools/godep
+https://github.com/tools/godep
+
+GoDoc
+A package index and search engine
+https://godoc.org/
+
+godebug
+mailgun/godebug
+A cross-platform debugger for Go.
+https://github.com/mailgun/godebug
+
+GoLang: Access struct property by name
+http://stackoverflow.com/questions/18930910/golang-access-struct-property-by-name
+
+Golang: format a string without printing?
+http://stackoverflow.com/questions/11123865/golang-format-a-string-without-printing
+
+Golang - How to print struct variables in console?
+http://stackoverflow.com/questions/24512112/golang-how-to-print-struct-variables-in-console
+
+GOPATH environment variable
+https://golang.org/doc/code.html#GOPATH
+https://golang.org/cmd/go/#hdr-GOPATH_environment_variable
+
+golang-announce 
+mailing list to be notified when a new stable version of Go is released
+https://groups.google.com/group/golang-announce
+
+How to handle configuration in Go [closed]
+http://stackoverflow.com/questions/16465705/how-to-handle-configuration-in-go
+
+How to read a file starting from a specific line number using Scanner?
+http://stackoverflow.com/questions/34654514/how-to-read-a-file-starting-from-a-specific-line-number-using-scanner
+
+How to read/write from/to file?     <===
+http://stackoverflow.com/questions/1821811/how-to-read-write-from-to-file
+
+How to Write Go Code                <===
+https://golang.org/doc/code.html
+
+INI file
+From Wikipedia, the free encyclopedia
+https://en.wikipedia.org/wiki/INI_file
+
+Is there a foreach in Go?
+http://stackoverflow.com/questions/7782411/is-there-a-foreach-in-go
+
+multiple packages in the same folder and package keyword useless now?
+https://groups.google.com/forum/#!topic/golang-nuts/l63mxm_5hyI
+
+Next Steps in Go: Code Organization    <===
+By Jared Carrolloll - October 27, 2013
+https://blog.pivotal.io/labs/labs/next-steps-in-go-code-organization
+
+Official Go support
+Cosmin Nicolaescu on September 23, 2014
+https://stripe.com/blog/official-go-support
+
+Organizing Go code                                <===
+by David Crawshaw, presented at Google I/O 2014.
+http://talks.golang.org/2014/organizeio.slide#1
+
+Packages
+https://golang.org/pkg/
+
+Package fmt
+import "fmt"
+https://golang.org/pkg/fmt/
+
+Packages names
+4 February 2015
+The Go Blog
+https://blog.golang.org/package-names
+
+Package name guidelines                          <===
+https://golang.org/doc/effective_go.html#names
+
+Package types
+Package types declares the data types and implements the algorithms for
+type-checking of Go packages.
+https://golang.org/pkg/go/types/
+
+Persisting Application Configuration In Golang   <===
+25 JUNE 2016 on Golang
+Explains how to do it with examples for two most
+popular formats: json and YAML. The examples are
+production ready. 
+http://goinbigdata.com/persisting-application-configuration-in-golang/
+
+Projects at the Go Wiki
+A curated list of Go projects
+https://golang.org/wiki/Projects
+
+Setting up a Go Development Environment
+24 Mar 2013
+Brian's Waster of Time
+http://skife.org/golang/2013/03/24/go_dev_env.html
+
+Strings, bytes, runes and characters in Go - 23 October 2013
+The Go Blog
+The Go Programming Language
+https://blog.golang.org/strings
+
+The Core Packages                            <===
+An Introduction to Programming in Go 
+Go Resources 
+https://www.golang-book.com/books/intro/13
+
+The Go Blog
+Strings, bytes, runes and characters in Go
+23 October 2013
+https://blog.golang.org/strings
+
+The Go Programming Language Specification
+https://golang.org/ref/spec
+
+The right way to handle YAML in Go
+November 29, 2014
+http://ghodss.com/2014/the-right-way-to-handle-yaml-in-golang/
+
+Things I Wish Someone Had Told Me About Golang
+11 Mar 2013 - By Karl Seguin
+http://openmymind.net/Things-I-Wish-Someone-Had-Told-Me-About-Go/
+
+Using Sublime Text for Go Development
+Mark Wolfe's Blog
+https://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development/
+
+Variables
+Go by Example: Variables
+https://gobyexample.com/variables
+
+What does go build build ?
+http://dave.cheney.net/2014/06/04/what-does-go-build-build
+
+What is the best way to convert byte array to string?
+http://stackoverflow.com/questions/14230145/what-is-the-best-way-to-convert-byte-array-to-string
+
+YAML support for the Go language.
+go-yaml/yaml
+https://github.com/go-yaml/yaml
