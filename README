@@ -1,0 +1,36 @@
+README
+Created Fri Mar 14 10:41:42 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Source code
+
+
+Filelist
+========
+00ARCHIVES/
+  Archives
+
+gopoller/
+  Fast multithreaded snmp poller written in Go.
+  Checkout from github
+  $ git clone https://github.com/wdreeveii/gopoller.git gopoller
+  https://github.com/wdreeveii/gopoller
+  https://github.com/wdreeveii/gopoller.git
+
+hello.go
+  To execute:
+    $ go run hello.go
+    hello, world
+  To install to ~/bin:
+    $ go install github.com/user/hello
+  Getting Started
+  The Go Programming Language
+  https://gobyexample.com/hello-world
+  https://golang.org/doc/install
+
+links.txt
+  Go source related links
+
+poller/
+  Checkout of GCI Whit Reeve's go poller code.
