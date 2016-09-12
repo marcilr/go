@@ -1,0 +1,66 @@
+links.txt
+Created Thu Aug 18 07:58:41 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+sql related links
+
+
+Links
+=====
+database/sql introduction
+http://go-database-sql.org/
+
+Go database/sql tutorial
+Nice document on database/sql here
+http://go-database-sql.org/
+
+Fetching Data from the Database
+Some good example code here
+http://go-database-sql.org/retrieving.html
+
+How to call the Scan variadic function in Golang using reflection? <===
+Good details on rows.Columns and rows.Scan() regarding
+fetching and interpreting values.
+http://stackoverflow.com/questions/17845619/how-to-call-the-scan-variadic-function-in-golang-using-reflection
+
+How to connect to mysql with go?
+Solid connection code here
+http://stackoverflow.com/questions/15698479/how-to-connect-to-mysql-with-go
+
+MyMySQL
+http://github.com/ziutek/mymysql
+
+MySQL performance in go-nuts mailing list
+https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/vYnSS_ABr4M
+
+Package sql  
+import "database/sql"  
+Package sql provides a generic interface around SQL (or SQL-like) databases.  
+https://golang.org/pkg/database/sql/  
+
+Retrieving Result Sets
+http://go-database-sql.org/retrieving.html
+
+Sharing a globally defined db conn with multiple packages in Golang
+PS: I wrote an article on how to pass a struct with your handler
+or package dependencies: 
+  http://elithrar.github.io/article/http-handler-error-handling-revisited/
+(an update on an older article) that might help you see it from another
+angle.  Also see 
+  http://www.jerf.org/iri/post/2929
+and
+  https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091#.c4y0nkupz
+which are additional takes on these approaches. 
+--elithrar Jul 4 '15 at 10:32
+http://stackoverflow.com/questions/31218008/sharing-a-globally-defined-db-conn-with-multiple-packages-in-golang
+
+SQL database drivers
+go-wiki
+https://github.com/golang/go/wiki/SQLDrivers
+
+What's the recommended way to connect to MySQL from Go? <===
+o MyMySQL
+o Go-MySQL-Driver
+http://stackoverflow.com/questions/11353679/whats-the-recommended-way-to-connect-to-mysql-from-go
+
