@@ -1,0 +1,6 @@
+debug.txt
+Created Mon Aug 15 14:17:52 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Debug
