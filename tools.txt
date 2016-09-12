@@ -1,0 +1,45 @@
+tools.txt
+Created Wed Aug 17 14:12:35 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Tools for go
+
+
+On covellite installed:
+
+go get -u golang.org/x/tools/cmd/goimports
+  Uninstalle this one.
+
+go get -u golang.org/x/tools/cmd/vet
+  Looks like go vet was installed by default
+
+go get -u golang.org/x/tools/cmd/godoc
+
+
+Links
+=====
+Command goimports updates your Go import lines,
+adding missing ones and removing unreferenced ones.
+https://godoc.org/golang.org/x/tools/cmd/goimports
+
+Command vet
+Vet examines Go source code and reports suspicious
+constructs, such as Printf calls whose arguments do
+not align with the format string.  Vet uses heuristics
+that do not guarantee all reports are genuine problems,
+but it can find errors not caught by the compilers.
+The Go Programming Language
+https://golang.org/cmd/vet/
+
+Command godoc
+Godoc extracts and generates documentation for Go programs.
+https://godoc.org/golang.org/x/tools/cmd/godoc
+
+Using Sublime Text for Go Development
+go get -u golang.org/x/tools/cmd/goimports
+go get -u golang.org/x/tools/cmd/vet
+go get -u golang.org/x/tools/cmd/oracle
+go get -u golang.org/x/tools/cmd/godoc
+https://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development/
+
