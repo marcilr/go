@@ -1,0 +1,22 @@
+integer-types.txt
+Created Tue Aug  2 10:59:52 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Integer types
+
+uint8 , uint16 , uint32 , uint64,
+int8 , int16 , int32 and int64.
+
+uint - Unsigned integer
+
+
+There are also 3 machine dependent integer types:
+  uint, int and uintptr
+
+They are machine dependent because their size depends on the type of
+architecture you are using.
+
+Generally if you are working with integers you should just use the int type.
+
+gobook.0.pdf, p. 25-26

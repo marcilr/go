@@ -1,0 +1,55 @@
+list-installed-packages.txt
+Created Tue Aug 16 12:55:33 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+List installed packages
+
+
+Listing Packages
+================
+To list packages in your workspace, go to your workspace folder and run this
+command:
+
+    go list ./...
+
+./ tells to start from the current folder, ... tells to go down recursively.
+Of course this works in any other folders not just in your go workspace (but
+usually that is what you're interested in).
+
+
+List All Packages
+=================
+Executing
+
+    go list ...
+
+in any folder lists all the packages, including packages of the standard
+library first followed by external libraries in your go workspace.
+
+
+Packages and their Dependencies
+===============================
+If you also want to see the imported packages by each package, you can try
+this custom format:
+
+    go list -f "{{.ImportPath}} {{.Imports}}" ./...
+
+-f specifies an alternate format for the list, using the syntax of package
+template.  The struct whose fields can be referenced can be printed by the go
+help list command.
+
+If you want to see all the dependencies recursively (dependencies of imported
+packages recursively), you can use this custom format:
+
+    go list -f "{{.ImportPath}} {{.Deps}}" ./...
+
+But usually this is a long list and just the single imports ("{{.Imports}}")
+of each package is what you want.
+--stackoverflow.com/questions/28166249/how-to-list-installed-go-packages
+
+
+Links
+=====
+How to list installed go packages
+http://stackoverflow.com/questions/28166249/how-to-list-installed-go-packages

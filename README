@@ -1,0 +1,45 @@
+README
+Created Mon Aug  1 14:19:11 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+comments.txt
+  Comments
+  https://golang.org/ref/spec#Comments
+
+floating-point.txt
+  floating point
+    float32
+    float64
+    complex64
+    complex128
+
+godoc.txt
+  godoc package [name ...]
+  go docuemntation
+  gobook.0.pdf, p. 165
+
+help.txt
+  go help
+  Use "go help [command]" for more information about a command.
+  --goobook, gobook.0.pdf, p. 18
+
+integer-types.txt
+  Integer types
+  uint8 , uint16 , uint32 , uint64,
+  int8 , int16 , int32 and int64.
+  gobook.0.pdf, p. 25-26
+
+list-installed-packages.txt
+  List installed packages
+
+syntax.txt
+  Syntax
+
+version.txt
+  $ go version
+  go version go1.6.3 linux/amd64  
+  $
+
