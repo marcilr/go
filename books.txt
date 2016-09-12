@@ -1,0 +1,14 @@
+books.txt
+Created Tue Aug 16 13:03:49 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Go books
+
+
+Books
+=====
+An Introduction to Programming in Go
+by Caleb Doxsey - 2012
+gobook.0.pdf, p. 16
+https://docs.google.com/viewer?url=https%3A%2F%2Fwww.golang-book.com%2Fpublic%2Fpdf%2Fgobook.pdf
