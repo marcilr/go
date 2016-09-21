@@ -1,0 +1,23 @@
+README
+Created Wed Sep 21 11:11:54 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+GoSublime.sublime-settings
+  GoSublime plugin configuration file with GOPATH configured on line 9:
+  // you may set specific environment variables here
+  // e.g "env": { "PATH": "$HOME/go/bin:$PATH" }
+  // in values, $PATH and ${PATH} are replaced with
+  // the corresponding environment(PATH) variable, if it exists.
+  "env": { "GOPATH": "$HOME/gospace" },
+  ~/.config/sublime-text-3/Packages/GoSublime/GoSublime.sublime-settings
+
+
+Links
+=====
+GoSublime for Sublime Text
+A Golang plugin collection for SublimeText **3**,
+providing code completion and other IDE-like features.
+https://github.com/DisposaBoy/GoSublime
