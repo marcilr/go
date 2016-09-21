@@ -11,7 +11,18 @@ Fine color syntax highlighting and build environment.
 
 
 Installation
-------------
+============
+1. In Sublime Text determine the Packages directory:
+Preferences > Browse Packages...
+/home/marcilr/.config/sublime-text-3/Packages/
+
+2. Change to Packages directory and clone GoSublime:
+$ cd ~/.config/sublime-text-3/Packages/
+$ git clone https://github.com/DisposaBoy/GoSublime
+
+3. Copy ~/.config/sublime-text-3/Packages/GoSublime/GoSublime.sublime-settings
+to ~/.config/sublime-text-3/Packages/User and edit it to your liking.
+NOTE: I did not do this last step and GoSublime works fine.
 
 
 
