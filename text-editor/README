@@ -5,8 +5,8 @@ Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
-GoSublime.sublime-settings GoSublime plugin configuration file with GOPATH
-  configured on line 9:
+GoSublime.sublime-settings
+  GoSublime plugin configuration file with GOPATH configured on line 9:
   // you may set specific environment variables here
   // e.g "env": { "PATH": "$HOME/go/bin:$PATH" }
   // in values, $PATH and ${PATH} are replaced with
