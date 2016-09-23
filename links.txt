@@ -184,6 +184,13 @@ GoDoc
 A package index and search engine
 https://godoc.org/
 
+Godoc: documenting Go code
+The Go Blog
+The Go Programming Language
+31 March 2011
+Good details here.
+https://blog.golang.org/godoc-documenting-go-code
+
 godebug
 mailgun/godebug
 A cross-platform debugger for Go.
