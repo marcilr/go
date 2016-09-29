@@ -13,8 +13,7 @@ versions of other software packages. -Wikipedia
 o Go standard library
 o Test files end in _test.go
   https://talks.golang.org/2014/organizeio.slide#7
-o
-$GOPATH/
+o $GOPATH/
     src/
         github.com/user/repo/
             mypkg/
