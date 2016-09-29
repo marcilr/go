@@ -8,6 +8,10 @@ Hash related links
 
 Links
 =====
+A Surprising Feature of Golang that Colored Me Impressed
+by Nathan Leclair - 27 Apr 2014
+https://nathanleclaire.com/blog/2014/04/27/a-surprising-feature-of-golang-that-colored-me-impressed/
+
 Go maps in action
 The Go Blog
 The Go Programming Language
