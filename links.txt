@@ -77,7 +77,7 @@ documentation page
 for a set of in-depth articles about the Go language and its libraries and tools.
 https://golang.org/doc/#articles
 
-Effective Go
+Effective Go                                <===
 Tips on writing clear, idiomatic Go code.
 https://golang.org/doc/effective_go.html
 
