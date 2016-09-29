@@ -1,0 +1,14 @@
+links.txt
+Created Thu Sep 29 10:00:36 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+spew related links
+
+
+Links
+=====
+go-spew
+Implements a deep pretty printer for Go data structures to aid in debugging
+https://github.com/davecgh/go-spew
+
