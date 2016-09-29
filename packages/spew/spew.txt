@@ -6,11 +6,70 @@ Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 go-spew
 
 
-Implements a deep pretty printer for Go data structures to aid in debugging
+Go-spew implements a deep pretty printer for Go data structures to aid in
+debugging.  A comprehensive suite of tests with 100% test coverage is provided
+to ensurso it may be used in open source or commercial projects.cov coverage
+report.  Go-spew is licensed under the liberal ISC license, so it may be used
+in open source or commercial projects.
+
+If you're interested in reading about how this package came to life and some
+of the challenges involved in providing a deep pretty printer, there is a blog
+post about it here.[1]
+
+
+Documentation
+=============
+GoDoc reference[2]
+
+Full go doc style documentation for the project can be viewed online without
+installing this package by using the excellent GoDoc site
+here: http://godoc.org/github.com/davecgh/go-spew/spew
+
+You can also view the documentation locally once the package is installed with
+the godoc tool by running godoc -http=":6060" and pointing your browser to
+http://localhost:6060/pkg/github.com/davecgh/go-spew/spew
+
+
+Installation
+============
+$ go get -u github.com/davecgh/go-spew/spew
+
+
+Quick Start
+===========
+Add this import line to the file you're working in:
+  import "github.com/davecgh/go-spew/spew"
+
+To dump a variable with full newlines, indentation, type, and pointer
+information use Dump, Fdump, or Sdump:
+  spew.Dump(myVar1, myVar2, ...)
+  spew.Fdump(someWriter, myVar1, myVar2, ...)
+  str := spew.Sdump(myVar1, myVar2, ...)
+
+Alternatively, if you would prefer to use format strings with a compacted
+inline printing style, use the convenience wrappers Printf, Fprintf, etc with
+%v (most compact), %+v (adds pointer addresses), %#v (adds types), or %#+v
+(adds types and pointer addresses):
+  spew.Printf("myVar1: %v -- myVar2: %+v", myVar1, myVar2)
+  spew.Printf("myVar3: %#v -- myVar4: %#+v", myVar3, myVar4)
+  spew.Fprintf(someWriter, "myVar1: %v -- myVar2: %+v", myVar1, myVar2)
+  spew.Fprintf(someWriter, "myVar3: %#v -- myVar4: %#+v", myVar3, myVar4)
+
+--github.com/davecgh/go-spew
 
 
 Links
 =====
+[1] here
+pretty deep blog post
+https://web.archive.org/web/20160304013555/https://blog.cyphertite.com/go-spew-a-journey-into-dumping-go-data-structures/
+
+[2] GoDoc reference
+package spew
+import "github.com/davecgh/go-spew/spew"
+https://godoc.org/github.com/davecgh/go-spew/spew
+
+
 go-spew
 davecgh/go-spew
 Implements a deep pretty printer for Go data structures to aid in debugging
