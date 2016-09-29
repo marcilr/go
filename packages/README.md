@@ -22,11 +22,14 @@ links.txt
 packages.txt
   Go packages
 
-
 regexp/
   import "regexp"
   Package regexp implements regular expression search
   https://golang.org/pkg/regexp/
+
+spew/
+  Implements a deep pretty printer for Go data structures to aid in debugging
+  https://github.com/davecgh/go-spew
 
 strings/
   import "strings"
