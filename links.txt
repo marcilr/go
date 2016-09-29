@@ -173,10 +173,6 @@ https://groups.google.com/group/golang-nuts
 Go Wiki
 https://golang.org/wiki/Projects
 
-Go database/sql tutorial
-Greate page on database/sql use
-http://go-database-sql.org/index.html
-
 Go's Declaration Syntax - 7 July 2010
 The Go Blog
 The Go Programming Language
