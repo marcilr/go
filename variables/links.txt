@@ -1,0 +1,12 @@
+links.txt
+Created Thu Sep 29 10:58:12 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Variables related links
+
+
+Links
+=====
+Go by Example: Variables
+https://gobyexample.com/variables
