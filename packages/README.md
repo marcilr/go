@@ -28,6 +28,8 @@ regexp/
   https://golang.org/pkg/regexp/
 
 spew/
+  go-spew
+  davecgh/go-spew
   Implements a deep pretty printer for Go data structures to aid in debugging
   https://github.com/davecgh/go-spew
 
