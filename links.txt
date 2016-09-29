@@ -31,6 +31,13 @@ Links
 50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs <===
 http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/
 
+A Recap of Request Handling in Go
+12th September 2013
+http://www.alexedwards.net/blog/a-recap-of-request-handling
+by Alex Edwards - author Building real-world web applications in Go.
+Go database/sql tutorial
+Greate page on database/sql use
+http://go-database-sql.org/index.html
 
 A Tour of Go                 <===
 to learn the language proper
