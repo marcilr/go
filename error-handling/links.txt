@@ -26,6 +26,10 @@ http://stackoverflow.com/questions/18963984/exit-with-error-code-in-go
 Go by Example: Errors
 https://gobyexample.com/errors
 
+Go's error handling: good and bad
+23 Apr 2015 - By Karl Seguin
+http://openmymind.net/Golangs-Error-Handling-Good-And-Bad/
+
 Go's Error Handling is Elegant
 David Nix
 10 NOVEMBER 2015
