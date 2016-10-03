@@ -25,13 +25,13 @@ _ := something() allows you to ignore the second returned value.
 
 It's also often used when a developer plans to use a library, but hasn't yet. By
 prepending the package this way, it allows the import declaration to stay without
-causing a compiler error. While this is frowned upon, the use of the underscore—or
-blank identifier—in the preceding method, for side effects, is fairly common and
+causing a compiler error. While this is frowned upon, the use of the underscore - or
+blank identifier - in the preceding method, for side effects, is fairly common and
 often acceptable.
 
 --Learning Go Web Development by Nathan Kozyra
   Creating a MySQL database
-  Learning_Go_Web_Development.pdf, p. 22
+  Learning_Go_Web_Development.pdf, p. 24
 
 
 List All Packages
