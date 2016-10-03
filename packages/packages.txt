@@ -6,6 +6,34 @@ Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 Packages
 
 
+Underscore _ syntax
+===================
+package main
+import (
+  "database/sql"
+  "fmt"
+  _ "github.com/go-sql-driver/mysql"
+  "log"
+)
+
+...
+
+You can note this through the underscore _ syntax that precedes the packages
+import. You're likely already familiar with this as a quick-and-dirty way to
+ignore the instantiation of a returned value from a method. For example x,
+_ := something() allows you to ignore the second returned value.
+
+It's also often used when a developer plans to use a library, but hasn't yet. By
+prepending the package this way, it allows the import declaration to stay without
+causing a compiler error. While this is frowned upon, the use of the underscore—or
+blank identifier—in the preceding method, for side effects, is fairly common and
+often acceptable.
+
+--Learning Go Web Development by Nathan Kozyra
+  Creating a MySQL database
+  Learning_Go_Web_Development.pdf, p. 22
+
+
 List All Packages
 =================
 $ go list ...
