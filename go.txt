@@ -5,6 +5,14 @@ Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
 
 Go is an expressive, concurrent, garbage-collected programming language.
 
+From the Go FAQ on why Go was created:
+  "Go was born out of frustration with existing languages and environments for
+  systems programming."
+
+--Learning Go We Developement, by Nathan Kozyr
+  Learning_Go_Web_Development.pdf, p. 1
+
+
 Usage
 =====
 go command [arguments]
