@@ -1,0 +1,35 @@
+notes.txt
+Created Tue Oct  4 15:54:45 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+    /*
+      Notice the : before the = and that no type was
+      specified. The type is not necessary because the
+      Go compiler is able to infer the type based on
+      the literal value you assign the variable.
+      ...
+      Generally you should use this shorter form whenever
+      possible.
+      gobook.0.pdf, p. 39
+    */
+    user := "root"
+    pass := "***"
+    host := "dev-dm1.operations.gci.com"
+
+    /*
+       Can I stop these complaints about my unused variable/import?
+       The presence of an unused variable may indicate a bug, while unused
+       imports just slow down compilation, an effect that can become
+       substantial as a program accumulates code and programmers over time.
+       For these reasons, Go refuses to compile programs with unused variables
+       or imports, trading short-term convenience for long-term build speed and
+       program clarity.
+       Frequently Asked Questions (FAQ)
+       http://golang.org/doc/faq#unused_variables_and_imports
+    */
+    //_ = user
+    //_ = pass
+    //_ = host
+    //_ = connect
+
