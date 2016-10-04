@@ -15,6 +15,19 @@ rows, err := db.Query("SELECT * FROM table")
 
 db.QueryRow
 ===========
+Single-Row Queries
+If a query returns at most one row, you can use a shortcut around
+some of the lengthy boilerplate code:
+  var name string
+  err = db.QueryRow("select name from users where id = ?", 1).Scan(&name)
+  if err != nil {
+      log.Fatal(err)
+  }
+  fmt.Println(name)
+
+--go-database-sql.org/retrieving.html
+
+
 var str string
 q := "SELECT count(*) FROM events"
 err = db.QueryRow(q).Scan(&str)
@@ -36,3 +49,7 @@ Links
 =====
 How to connect to mysql with go?
 http://stackoverflow.com/questions/15698479/how-to-connect-to-mysql-with-go
+
+Single-Row Queries
+Fetching Data from the Database
+http://go-database-sql.org/retrieving.html
