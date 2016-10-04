@@ -13,3 +13,7 @@ Filelist
 ========
 books.txt
   Go books
+
+notes.txt  
+  Some go syntax notes.  
+
