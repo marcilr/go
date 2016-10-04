@@ -51,5 +51,6 @@ How to connect to mysql with go?
 http://stackoverflow.com/questions/15698479/how-to-connect-to-mysql-with-go
 
 Single-Row Queries
-Fetching Data from the Database
+Fetching Data from the Database            <===
+Very useful page
 http://go-database-sql.org/retrieving.html
