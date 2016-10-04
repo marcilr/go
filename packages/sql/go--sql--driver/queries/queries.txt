@@ -13,8 +13,26 @@ rows, err := db.Query("SELECT * FROM table")
 
 --example1/example1.go
 
+db.QueryRow
+===========
+var str string
+q := "SELECT count(*) FROM events"
+err = db.QueryRow(q).Scan(&str)
+if err != nil {
+    log.Fatal(err)
+}
+log.Println(str)
+
+--stackoverflow.com/questions/15698479/
+
 
 rows.Scan()
 ===========
 Scan results
 
+
+
+Links
+=====
+How to connect to mysql with go?
+http://stackoverflow.com/questions/15698479/how-to-connect-to-mysql-with-go
