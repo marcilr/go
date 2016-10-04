@@ -1,0 +1,20 @@
+queries.txt
+Created Tue Oct  4 08:57:41 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Queries
+
+
+db.Query()
+==========
+// Execute the query
+rows, err := db.Query("SELECT * FROM table")
+
+--example1/example1.go
+
+
+rows.Scan()
+===========
+Scan results
+
