@@ -36,3 +36,6 @@ David Nix
 Startup Software Developer, Go and iOS
 https://davidnix.io/post/error-handling-in-go/
 
+Handling Errors
+http://go-database-sql.org/errors.html
+
