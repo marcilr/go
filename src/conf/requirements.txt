@@ -1,0 +1,33 @@
+requirements.txt
+Created Thu Oct 20 10:22:45 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Requirements
+
+
+o A "#" character at the beginning of a line denotes a comment.
+
+o A blank line should be ignored.
+
+o All key/value pairs should start with a non-blank identifier
+  name at the beginning of a line.
+
+o An equals-sign ("=") should separate the key from the value
+  with no whitespace on either the left or right side.
+  
+  NOTE: Need to be able to parse quoted values with inside spaces
+        and equal signs.
+
+o While the configuration file reader will read files that look
+  like Java Properties files, escape-sequences in the value
+  portion of the line will not be evaluated.
+
+
+Links
+=====
+Yet Another Config File Reader for Go (Golang)
+Posted on July 30, 2013
+Jim Lawless' Blog
+https://lawlessguy.wordpress.com/2013/07/30/yet-another-config-file-reader-for-go-golang/
+
