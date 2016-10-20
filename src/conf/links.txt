@@ -8,6 +8,11 @@ Configuration related links
 
 Links
 =====
+Error handling and Go
+12 July 2011
+The Go Blog
+https://blog.golang.org/error-handling-and-go
+
 Go maps in action (hashmaps)
 6 February 2013
 The Go Blog
