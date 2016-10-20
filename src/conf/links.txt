@@ -8,8 +8,26 @@ Configuration related links
 
 Links
 =====
+Go maps in action (hashmaps)
+6 February 2013
+The Go Blog
+https://blog.golang.org/go-maps-in-action
+
+How can I read "nicely" Key and Value in Go (Golang)?
+o Use of map[string]interface{} type.
+o Use ioutil.ReadFile to read a .json file into a []byte.
+http://stackoverflow.com/questions/37802499/how-can-i-read-nicely-key-and-value-in-go-golang
+
+How to use interfaces in Go
+by Jordan Orelli
+Very good interface definition and details
+http://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go
+
+Package regexp
+import "regexp"
+https://golang.org/pkg/regexp/
+
 Yet Another Config File Reader for Go (Golang)
 Posted on July 30, 2013
 Jim Lawless' Blog
 https://lawlessguy.wordpress.com/2013/07/30/yet-another-config-file-reader-for-go-golang/
-
