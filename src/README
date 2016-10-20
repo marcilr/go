@@ -11,6 +11,9 @@ Filelist
 00ARCHIVES/
   Archives
 
+conf/
+  Configuration file reader
+
 gopoller/
   Fast multithreaded snmp poller written in Go.
   Checkout from github
