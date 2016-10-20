@@ -1,0 +1,15 @@
+links.txt
+Created Thu Oct 20 10:20:30 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Configuration related links
+
+
+Links
+=====
+Yet Another Config File Reader for Go (Golang)
+Posted on July 30, 2013
+Jim Lawless' Blog
+https://lawlessguy.wordpress.com/2013/07/30/yet-another-config-file-reader-for-go-golang/
+
