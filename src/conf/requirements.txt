@@ -23,6 +23,8 @@ o While the configuration file reader will read files that look
   like Java Properties files, escape-sequences in the value
   portion of the line will not be evaluated.
 
+--lawlessguy.wordpress.com/2013/07/30/
+
 
 Links
 =====
