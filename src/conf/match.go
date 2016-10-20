@@ -118,10 +118,16 @@ func main() {
 
 		fmt.Println("last: " + string(value[1]))
 
-		// Check if leading/trailing single quotes and remove
-		// First check if first/last character of string are the same
-		if string(value[1]) == string(value[len(value)-1]) {
-			fmt.Println("Foo")
+		// Remove leading "=" from value
+		valueFmt := value[1:len(value)]
+
+		/*
+			Check if leading/trailing single quotes and remove
+			First check if first/last character of string are the same
+		*/
+		if (string(valueFmt[0]) == string(valueFmt[len(valueFmt)-1])) &&
+			((string(valueFmt[0]) == "'") || (string(valueFmt[0]) == "\"")) {
+			fmt.Println("main() Removing quotes from value: " + valueFmt)
 		}
 
 	} else {
