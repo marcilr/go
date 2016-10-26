@@ -128,6 +128,8 @@ func main() {
 		if (string(valueFmt[0]) == string(valueFmt[len(valueFmt)-1])) &&
 			((string(valueFmt[0]) == "'") || (string(valueFmt[0]) == "\"")) {
 			fmt.Println("main() Removing quotes from value: " + valueFmt)
+			valueFmt = valueFmt[1 : len(valueFmt)-1]
+			fmt.Println("main() Removed quotes from value: " + valueFmt)
 		}
 
 	} else {
