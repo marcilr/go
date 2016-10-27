@@ -6,6 +6,17 @@ Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 Queries
 
 
+Function        Description
+--------------------------------------------------
+db.Query()      Execute query
+
+db.QueryRow()   Single-Row Queries
+                If a query returns at most one row
+
+rows.Scan()     Scan results
+ 
+
+
 db.Query()
 ==========
 // Execute the query
