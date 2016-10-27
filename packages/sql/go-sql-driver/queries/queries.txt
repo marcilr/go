@@ -17,8 +17,26 @@ rows.Scan()     Scan results
  
 
 
+db.Exec()
+=========
+func (*DB) Exec
+func (db *DB) Exec(query string, args ...interface{}) (Result, error)
+
+Exec executes a query without returning any rows.  The args are for any
+placeholder parameters in the query.
+--golang.org/pkg/database/sql/
+
+
 db.Query()
 ==========
+func (*DB) Query
+func (db *DB) Query(query string, args ...interface{}) (*Rows, error)
+
+Query executes a query that returns rows, typically a SELECT.  The args are for any
+placeholder parameters in the query.
+--golang.org/pkg/database/sql/
+
+
 // Execute the query
 rows, err := db.Query("SELECT * FROM table")
 
@@ -27,6 +45,15 @@ rows, err := db.Query("SELECT * FROM table")
 
 db.QueryRow
 ===========
+func (*DB) QueryRow Â¶
+func (db *DB) QueryRow(query string, args ...interface{}) *Row
+
+QueryRow executes a query that is expected to return at most one row.
+QueryRow always returns a non-nil value. Errors are deferred until Row's
+Scan method is called.
+--golang.org/pkg/database/sql/
+
+
 Single-Row Queries
 If a query returns at most one row, you can use a shortcut around
 some of the lengthy boilerplate code:
@@ -61,6 +88,10 @@ Links
 =====
 How to connect to mysql with go?
 http://stackoverflow.com/questions/15698479/how-to-connect-to-mysql-with-go
+
+Package sql
+import "database/sql"
+https://golang.org/pkg/database/sql/
 
 Single-Row Queries
 Fetching Data from the Database            <===
