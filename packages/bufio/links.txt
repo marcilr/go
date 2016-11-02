@@ -16,3 +16,6 @@ object, creating another object (Reader or Writer) that also implements the
 interface but provides buffering and some help for textual I/O.
 https://golang.org/pkg/bufio/
 
+reading file line by line in go
+http://stackoverflow.com/questions/8757389/reading-file-line-by-line-in-go
+
