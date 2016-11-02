@@ -8,6 +8,10 @@ Go MySQL Driver related links
 
 Links
 =====
+DSN (Data Source Name)
+go-sql-driver/mysql
+https://github.com/go-sql-driver/mysql#dsn-data-source-name
+
 Examples
 go-sql-driver/mysql
 Has A word on sql.Open, looks good.
@@ -49,8 +53,18 @@ The driver should be used via the database/sql package:
 mysql: github.com/go-sql-driver/mysql
 https://godoc.org/github.com/go-sql-driver/mysql#Config.FormatDSN
 
+Retrieving Result Sets
+Fetching Data from the Database
+http://go-database-sql.org/retrieving.html
+
+What is old_passwords?
+Because it is insecure and deprecated Go-MySQL-Driver did not support this old
+password authentication system until version 1.1.  Starting with
+Go-MySQL-Driver version 1.1 you can use the old authentication system
+explicitly by adding allowOldPasswords=1 to your DSN.
+https://github.com/go-sql-driver/mysql/wiki/old_passwords
+
 What's the recommended way to connect to MySQL from Go? <===
 o MyMySQL
 o Go-MySQL-Driver
 http://stackoverflow.com/questions/11353679/whats-the-recommended-way-to-connect-to-mysql-from-go
-
