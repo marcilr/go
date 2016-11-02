@@ -8,6 +8,9 @@ Package related links
 
 Links
 =====
+Extracting substrings in Go
+http://stackoverflow.com/questions/12311033/extracting-substrings-in-go
+
 How to trim leading and trailing white spaces of a string in golang?
 http://stackoverflow.com/questions/22688010/how-to-trim-leading-and-trailing-white-spaces-of-a-string-in-golang
 
