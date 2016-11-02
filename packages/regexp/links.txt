@@ -8,6 +8,9 @@ regex related links
 
 Links
 =====
+golang: Use regex to return the shortest string between strings
+http://stackoverflow.com/questions/25754836/golang-use-regex-to-return-the-shortest-string-between-strings
+
 Package regexp
 import "regexp"
 Package regexp implements regular expression search.
