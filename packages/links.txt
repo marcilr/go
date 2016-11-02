@@ -8,9 +8,8 @@ Package related links
 
 Links
 =====
-YAML
-From Wikipedia, the free encyclopedia
-https://en.wikipedia.org/wiki/YAML
+How to trim leading and trailing white spaces of a string in golang?
+http://stackoverflow.com/questions/22688010/how-to-trim-leading-and-trailing-white-spaces-of-a-string-in-golang
 
 Package bufio
 import "bufio"
@@ -22,3 +21,6 @@ An Introduction to Programming in Go
 Go Resources 
 https://www.golang-book.com/books/intro/13
 
+YAML
+From Wikipedia, the free encyclopedia
+https://en.wikipedia.org/wiki/YAML
