@@ -119,6 +119,12 @@ Why is a project based approach, as opposed to a workspace based
 approach like $GOPATH, useful?
 http://dave.cheney.net/2015/06/09/gb-a-project-based-build-tool-for-the-go-programming-language
 
+Go as a server-side language?
+Unlike php, its not a scripting language.
+It compiles to binanies whuch can then be executed.
+I using it for some web apps, replacing some olde python.
+https://www.reddit.com/r/golang/comments/24qvs9/go_as_a_serverside_language/
+
 Introducing gb, a project based build tool for the Go programming language
 http://dave.cheney.net/2015/05/12/introducing-gb
 
