@@ -1,0 +1,40 @@
+# manifest
+# Created Wed Mar 14 09:06:55 AKDT 2018
+# Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+#
+# Manifest for resync application
+#
+# To my knowledge GitHub does not support hierarchical repositories outside
+# of perhaps git submodules.  However, submodules are not so good so I've
+# implemented hierarchical repositories using repo names and this manifest.
+#
+# The dashes in the repo names represent directory separation.  There are
+# some repos like svn-to-git/ that have acutally dashes in the repo name.
+# Have not escaped these dashes in any way.   Might do this at some point.
+#
+
+# =====================================================================
+# =====================================================================
+#
+# Private htpc repositories
+# Public GitHub repositories
+#
+# =====================================================================
+# =====================================================================
+
+
+# =====================================================================
+#
+# Go
+#
+# =====================================================================
+
+#
+# Has An Introduction to Programming Go by Caleb Doxsey
+# don't think this is gnu or redistributable.
+# https://www.golang-book.com/public/pdf/gobook.pdf
+#
+ssh://htpc/git/dev/lang/go/pdf            pdf
+
+# Whit Reeve's gopoller on github
+ssh://git@github.com/wdreeveii/gopoller   src/gopoller
