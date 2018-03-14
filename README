@@ -27,6 +27,9 @@ go.uew
 links.txt
   Go related links
 
+manifest
+  Manifest for resync application
+
 mysql/
   MySQL drivers
   o MyMySQL
